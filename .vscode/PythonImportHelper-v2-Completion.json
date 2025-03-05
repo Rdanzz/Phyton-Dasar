@@ -1,0 +1,1883 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 10 Operasi Komparasi.session10",
+        "description": "session 10 Operasi Komparasi.session10",
+        "peekOfCode": "a = 4\nb = 5\n# > lebih dari\nprint(f\"{a} > {b} = {a > b}\")\n# < kurang dari\nprint(f\"{a} < {b} = {a < b}\")\n# >= lebih dari sama dengan\nprint(f\"{a} >= {b} = {a >= b}\")\n# <= kurang dari sama dengan\nprint(f\"{a} <= {b} = {a <= b}\")",
+        "detail": "session 10 Operasi Komparasi.session10",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 10 Operasi Komparasi.session10",
+        "description": "session 10 Operasi Komparasi.session10",
+        "peekOfCode": "b = 5\n# > lebih dari\nprint(f\"{a} > {b} = {a > b}\")\n# < kurang dari\nprint(f\"{a} < {b} = {a < b}\")\n# >= lebih dari sama dengan\nprint(f\"{a} >= {b} = {a >= b}\")\n# <= kurang dari sama dengan\nprint(f\"{a} <= {b} = {a <= b}\")\n# == sama dengan",
+        "detail": "session 10 Operasi Komparasi.session10",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = not a\nprint(\"nilai a adalah :\", a)\nprint(\"nilai b adalah:\", b)\n# or\nprint(\"\\n===== OR =====\")\na = False\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = not a\nprint(\"nilai a adalah :\", a)\nprint(\"nilai b adalah:\", b)\n# or\nprint(\"\\n===== OR =====\")\na = False\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = False\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = False\nb = True ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = False\nb = True \nc = a or b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = False\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = False\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = True ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = False \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = False\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = True \nc = a or b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a or b\nprint(f\"{a} or {b} = {c}\")\na = False\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = False\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\n# and\nprint(\"\\n===== AND =====\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\n# and\nprint(\"\\n===== AND =====\")\na = False",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a or b\nprint(f\"{a} or {b} = {c}\")\na = True\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\n# and\nprint(\"\\n===== AND =====\")\na = False\nb = False ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\n# and\nprint(\"\\n===== AND =====\")\na = False\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = True \nc = a or b\nprint(f\"{a} or {b} = {c}\")\n# and\nprint(\"\\n===== AND =====\")\na = False\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a or b\nprint(f\"{a} or {b} = {c}\")\n# and\nprint(\"\\n===== AND =====\")\na = False\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = False ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = False\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = False\nb = True ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = False\nb = True \nc = a and b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = False\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = False\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = True ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = False \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = False\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = True \nc = a and b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a and b\nprint(f\"{a} and {b} = {c}\")\na = False\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = False\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\nprint(\"\\n===== XOR =====\")\na = False",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\nprint(\"\\n===== XOR =====\")\na = False\nb = False ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a and b\nprint(f\"{a} and {b} = {c}\")\na = True\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\nprint(\"\\n===== XOR =====\")\na = False\nb = False \nc = a ^ b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\nprint(\"\\n===== XOR =====\")\na = False\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = True \nc = a and b\nprint(f\"{a} and {b} = {c}\")\nprint(\"\\n===== XOR =====\")\na = False\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = False ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a and b\nprint(f\"{a} and {b} = {c}\")\nprint(\"\\n===== XOR =====\")\na = False\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = False \nc = a ^ b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = False\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = False\nb = True ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = False\nb = True \nc = a ^ b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = False\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = False\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = True ",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = False \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = False\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = True \nc = a ^ b",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = False\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = False\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a ^ b\nprint(f\"{a} xor {b} = {c}\")\na = True\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "a = True\nb = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "b = True \nc = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 11 Operasi Logika.session11",
+        "description": "session 11 Operasi Logika.session11",
+        "peekOfCode": "c = a ^ b\nprint(f\"{a} xor {b} = {c}\")",
+        "detail": "session 11 Operasi Logika.session11",
+        "documentation": {}
+    },
+    {
+        "label": "inputUser",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "inputUser = float(input(\"masukan angka: \"))\n# Cek apakah inputUser < 3\nkurangDari = inputUser < 3\n# Cetak hasil perbandingan\nprint(f\"{inputUser} kurang dari 3: {kurangDari}\")\n# Cek apakah inputUser > 5\nlebihDari = inputUser > 5\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 5: {lebihDari}\")\n# Cek dengan OR",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "kurangDari",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "kurangDari = inputUser < 3\n# Cetak hasil perbandingan\nprint(f\"{inputUser} kurang dari 3: {kurangDari}\")\n# Cek apakah inputUser > 5\nlebihDari = inputUser > 5\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 5: {lebihDari}\")\n# Cek dengan OR\n# +++++3----5+++++\nisOr = kurangDari or lebihDari",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "lebihDari",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "lebihDari = inputUser > 5\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 5: {lebihDari}\")\n# Cek dengan OR\n# +++++3----5+++++\nisOr = kurangDari or lebihDari\n# Cetak hasil perbandingan\nprint(f\"{inputUser} kurang dari 3 atau lebih dari 5: {isOr}\")\n# Cek dengan AND\n# ----3+++++7----",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "isOr",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "isOr = kurangDari or lebihDari\n# Cetak hasil perbandingan\nprint(f\"{inputUser} kurang dari 3 atau lebih dari 5: {isOr}\")\n# Cek dengan AND\n# ----3+++++7----\nkurangDari = inputUser < 7\nlebihDari = inputUser > 3\nisAnd = kurangDari and lebihDari\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 3 dan kurang dari 7: {isAnd}\")",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "kurangDari",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "kurangDari = inputUser < 7\nlebihDari = inputUser > 3\nisAnd = kurangDari and lebihDari\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 3 dan kurang dari 7: {isAnd}\")",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "lebihDari",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "lebihDari = inputUser > 3\nisAnd = kurangDari and lebihDari\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 3 dan kurang dari 7: {isAnd}\")",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "isAnd",
+        "kind": 5,
+        "importPath": "session 12 Latihan Logika Komparasi.session12",
+        "description": "session 12 Latihan Logika Komparasi.session12",
+        "peekOfCode": "isAnd = kurangDari and lebihDari\n# Cetak hasil perbandingan\nprint(f\"{inputUser} lebih dari 3 dan kurang dari 7: {isAnd}\")",
+        "detail": "session 12 Latihan Logika Komparasi.session12",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 13 Operasi Bitwise.session13",
+        "description": "session 13 Operasi Bitwise.session13",
+        "peekOfCode": "a = 9\nb = 5\n# bitwise (|) or\nc = a | b \nprint(\"==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")\nprint(f\"nilai {b} binary {format(b, '08b')}\")\nprint(\"================================ (|)\")\nprint(f\"nilai {c} binary {format(c, '08b')}\")\n# bitwise (&) and",
+        "detail": "session 13 Operasi Bitwise.session13",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 13 Operasi Bitwise.session13",
+        "description": "session 13 Operasi Bitwise.session13",
+        "peekOfCode": "b = 5\n# bitwise (|) or\nc = a | b \nprint(\"==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")\nprint(f\"nilai {b} binary {format(b, '08b')}\")\nprint(\"================================ (|)\")\nprint(f\"nilai {c} binary {format(c, '08b')}\")\n# bitwise (&) and\nc = a & b ",
+        "detail": "session 13 Operasi Bitwise.session13",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 13 Operasi Bitwise.session13",
+        "description": "session 13 Operasi Bitwise.session13",
+        "peekOfCode": "c = a | b \nprint(\"==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")\nprint(f\"nilai {b} binary {format(b, '08b')}\")\nprint(\"================================ (|)\")\nprint(f\"nilai {c} binary {format(c, '08b')}\")\n# bitwise (&) and\nc = a & b \nprint(\"\\n==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")",
+        "detail": "session 13 Operasi Bitwise.session13",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 13 Operasi Bitwise.session13",
+        "description": "session 13 Operasi Bitwise.session13",
+        "peekOfCode": "c = a & b \nprint(\"\\n==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")\nprint(f\"nilai {b} binary {format(b, '08b')}\")\nprint(\"================================ (&)\")\nprint(f\"nilai {c} binary {format(c, '08b')}\")\n# bitwise (^) xor\nc = a ^ b \nprint(\"\\n==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")",
+        "detail": "session 13 Operasi Bitwise.session13",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 13 Operasi Bitwise.session13",
+        "description": "session 13 Operasi Bitwise.session13",
+        "peekOfCode": "c = a ^ b \nprint(\"\\n==== OPERATOR ====\")\nprint(f\"nilai {a} binary {format(a, '08b')}\")\nprint(f\"nilai {b} binary {format(b, '08b')}\")\nprint(\"================================ (^)\")\nprint(f\"nilai {c} binary {format(c, '08b')}\")",
+        "detail": "session 13 Operasi Bitwise.session13",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 14 Operator Assigment.session.14",
+        "description": "session 14 Operator Assigment.session.14",
+        "peekOfCode": "a = 5 #adalah assigment\nprint(f\"a bernilai {a}\")\na += 1 \nprint(f\"a bernilai {a}\")\na -= 1\nprint(f\"a bernilai {a}\")\na *= 2\nprint(f\"a bernilai {a}\")\na /= 2\nprint(f\"a bernilai {a}\")",
+        "detail": "session 14 Operator Assigment.session.14",
+        "documentation": {}
+    },
+    {
+        "label": "nama_awal",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "nama_awal = \"Zidhan\"\nnama_akhir = \"Raffly\"\nnama_lengkap = nama_awal + \" \" + nama_akhir\nprint(nama_lengkap)\n# 2. Menghitung panjnag string\npanjang_nama = len(nama_lengkap)\nprint(f\"{nama_lengkap} Panjang nama lengkap: {panjang_nama}\")\n# 3. Operator untuk string\n# mengecek apakah ada komponen char atau string di string\nd = \"D\"",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "nama_akhir",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "nama_akhir = \"Raffly\"\nnama_lengkap = nama_awal + \" \" + nama_akhir\nprint(nama_lengkap)\n# 2. Menghitung panjnag string\npanjang_nama = len(nama_lengkap)\nprint(f\"{nama_lengkap} Panjang nama lengkap: {panjang_nama}\")\n# 3. Operator untuk string\n# mengecek apakah ada komponen char atau string di string\nd = \"D\"\nstatus = d in nama_lengkap",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "nama_lengkap",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "nama_lengkap = nama_awal + \" \" + nama_akhir\nprint(nama_lengkap)\n# 2. Menghitung panjnag string\npanjang_nama = len(nama_lengkap)\nprint(f\"{nama_lengkap} Panjang nama lengkap: {panjang_nama}\")\n# 3. Operator untuk string\n# mengecek apakah ada komponen char atau string di string\nd = \"D\"\nstatus = d in nama_lengkap\nstatusNot = d not in nama_lengkap",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "panjang_nama",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "panjang_nama = len(nama_lengkap)\nprint(f\"{nama_lengkap} Panjang nama lengkap: {panjang_nama}\")\n# 3. Operator untuk string\n# mengecek apakah ada komponen char atau string di string\nd = \"D\"\nstatus = d in nama_lengkap\nstatusNot = d not in nama_lengkap\nprint(f\"{d} ada di {nama_lengkap}: {status}\")\nprint(f\"{d} tidak ada di {nama_lengkap}: {statusNot}\")\n# 4. mengulang string",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "d = \"D\"\nstatus = d in nama_lengkap\nstatusNot = d not in nama_lengkap\nprint(f\"{d} ada di {nama_lengkap}: {status}\")\nprint(f\"{d} tidak ada di {nama_lengkap}: {statusNot}\")\n# 4. mengulang string\nprint(f\"wk\" * 10)\n# 5. Indexing\nprint(f\"Index ke 0 adalah hurug : {nama_lengkap[0]}\")\nprint(f\"Index ke 1 adalah hurug : {nama_lengkap[1]}\")",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "status = d in nama_lengkap\nstatusNot = d not in nama_lengkap\nprint(f\"{d} ada di {nama_lengkap}: {status}\")\nprint(f\"{d} tidak ada di {nama_lengkap}: {statusNot}\")\n# 4. mengulang string\nprint(f\"wk\" * 10)\n# 5. Indexing\nprint(f\"Index ke 0 adalah hurug : {nama_lengkap[0]}\")\nprint(f\"Index ke 1 adalah hurug : {nama_lengkap[1]}\")\nprint(f\"Index ke -1 adalah hurug : {nama_lengkap[-1]}\")",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "statusNot",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "statusNot = d not in nama_lengkap\nprint(f\"{d} ada di {nama_lengkap}: {status}\")\nprint(f\"{d} tidak ada di {nama_lengkap}: {statusNot}\")\n# 4. mengulang string\nprint(f\"wk\" * 10)\n# 5. Indexing\nprint(f\"Index ke 0 adalah hurug : {nama_lengkap[0]}\")\nprint(f\"Index ke 1 adalah hurug : {nama_lengkap[1]}\")\nprint(f\"Index ke -1 adalah hurug : {nama_lengkap[-1]}\")\nprint(f\"Index ke -2 adalah hurug : {nama_lengkap[-2]}\")",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "data = \"otong surotong jontong\"\njumlah = data.count(\"o\")\nprint(f\"Jumlah huruf 'o' dalam {data} adalah: {jumlah}\")",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "jumlah",
+        "kind": 5,
+        "importPath": "session 16 Operasi Manipulasi String part 1.session16",
+        "description": "session 16 Operasi Manipulasi String part 1.session16",
+        "peekOfCode": "jumlah = data.count(\"o\")\nprint(f\"Jumlah huruf 'o' dalam {data} adalah: {jumlah}\")",
+        "detail": "session 16 Operasi Manipulasi String part 1.session16",
+        "documentation": {}
+    },
+    {
+        "label": "salam",
+        "kind": 5,
+        "importPath": "session 17 Operasi Manipulasi String part  2.session17",
+        "description": "session 17 Operasi Manipulasi String part  2.session17",
+        "peekOfCode": "salam = \"hallo, selamat pagi\"\nprint(salam.upper())\n# merubah ke lowercase\nsalam = \"Hallo, Selamat pagi\"\nprint(salam.lower())\n# pengecekkan dengan isX method\n# example lowercase method\nsalam = \"hallo, selamat pagi\"\nprint(f\"{salam} adalah lower semua : {salam.islower()}\")\n# example uppercase method",
+        "detail": "session 17 Operasi Manipulasi String part  2.session17",
+        "documentation": {}
+    },
+    {
+        "label": "salam",
+        "kind": 5,
+        "importPath": "session 17 Operasi Manipulasi String part  2.session17",
+        "description": "session 17 Operasi Manipulasi String part  2.session17",
+        "peekOfCode": "salam = \"Hallo, Selamat pagi\"\nprint(salam.lower())\n# pengecekkan dengan isX method\n# example lowercase method\nsalam = \"hallo, selamat pagi\"\nprint(f\"{salam} adalah lower semua : {salam.islower()}\")\n# example uppercase method\nprint(f\"{salam} adalah upper semua : {salam.isupper()}\")",
+        "detail": "session 17 Operasi Manipulasi String part  2.session17",
+        "documentation": {}
+    },
+    {
+        "label": "salam",
+        "kind": 5,
+        "importPath": "session 17 Operasi Manipulasi String part  2.session17",
+        "description": "session 17 Operasi Manipulasi String part  2.session17",
+        "peekOfCode": "salam = \"hallo, selamat pagi\"\nprint(f\"{salam} adalah lower semua : {salam.islower()}\")\n# example uppercase method\nprint(f\"{salam} adalah upper semua : {salam.isupper()}\")",
+        "detail": "session 17 Operasi Manipulasi String part  2.session17",
+        "documentation": {}
+    },
+    {
+        "label": "nama",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "nama = \"zidhan\"\nasal = \"karawang\"\n# str = \"halo\" + nama\nformat_str = f\"halo saya {nama} asal dari kota {asal}\"\nprint(format_str)\nangka = 2005.5\nformat_str = f\"angka kamu adalah {angka}\"\nprint(format_str)\n# bilangan ordo ribuan\nangka = 2000000",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "asal",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "asal = \"karawang\"\n# str = \"halo\" + nama\nformat_str = f\"halo saya {nama} asal dari kota {asal}\"\nprint(format_str)\nangka = 2005.5\nformat_str = f\"angka kamu adalah {angka}\"\nprint(format_str)\n# bilangan ordo ribuan\nangka = 2000000\nformat_str = f\"jutaan {angka:,}\"",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "format_str",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "format_str = f\"halo saya {nama} asal dari kota {asal}\"\nprint(format_str)\nangka = 2005.5\nformat_str = f\"angka kamu adalah {angka}\"\nprint(format_str)\n# bilangan ordo ribuan\nangka = 2000000\nformat_str = f\"jutaan {angka:,}\"\nprint(format_str)\n# bilangan desimal",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "angka",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "angka = 2005.5\nformat_str = f\"angka kamu adalah {angka}\"\nprint(format_str)\n# bilangan ordo ribuan\nangka = 2000000\nformat_str = f\"jutaan {angka:,}\"\nprint(format_str)\n# bilangan desimal\nangka = 2025.54321\nformat_str = f\"desimal {angka:.3f}\"",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "format_str",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "format_str = f\"angka kamu adalah {angka}\"\nprint(format_str)\n# bilangan ordo ribuan\nangka = 2000000\nformat_str = f\"jutaan {angka:,}\"\nprint(format_str)\n# bilangan desimal\nangka = 2025.54321\nformat_str = f\"desimal {angka:.3f}\"\nprint(format_str)",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "angka",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "angka = 2000000\nformat_str = f\"jutaan {angka:,}\"\nprint(format_str)\n# bilangan desimal\nangka = 2025.54321\nformat_str = f\"desimal {angka:.3f}\"\nprint(format_str)",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "format_str",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "format_str = f\"jutaan {angka:,}\"\nprint(format_str)\n# bilangan desimal\nangka = 2025.54321\nformat_str = f\"desimal {angka:.3f}\"\nprint(format_str)",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "angka",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "angka = 2025.54321\nformat_str = f\"desimal {angka:.3f}\"\nprint(format_str)",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "format_str",
+        "kind": 5,
+        "importPath": "session 18 Format String.session18",
+        "description": "session 18 Format String.session18",
+        "peekOfCode": "format_str = f\"desimal {angka:.3f}\"\nprint(format_str)",
+        "detail": "session 18 Format String.session18",
+        "documentation": {}
+    },
+    {
+        "label": "nama",
+        "kind": 5,
+        "importPath": "Session 19 String Width & Multiline.session19",
+        "description": "Session 19 String Width & Multiline.session19",
+        "peekOfCode": "nama = \"Zidhan\"\numur = 21\ntinggi = 170\nprint(f\"======= String =======\")\nprint(f\"nama saya {nama} \\numur saya {umur} tahun \\ntinggi saya adalah {tinggi} cm\")\nprint(f\"\\n======= String =======\")\nprint(f\"\"\"\nnama saya adalah {nama}\numur saya adalah {umur} tahun\ndan tinggi saya {tinggi} cm",
+        "detail": "Session 19 String Width & Multiline.session19",
+        "documentation": {}
+    },
+    {
+        "label": "umur",
+        "kind": 5,
+        "importPath": "Session 19 String Width & Multiline.session19",
+        "description": "Session 19 String Width & Multiline.session19",
+        "peekOfCode": "umur = 21\ntinggi = 170\nprint(f\"======= String =======\")\nprint(f\"nama saya {nama} \\numur saya {umur} tahun \\ntinggi saya adalah {tinggi} cm\")\nprint(f\"\\n======= String =======\")\nprint(f\"\"\"\nnama saya adalah {nama}\numur saya adalah {umur} tahun\ndan tinggi saya {tinggi} cm\n\"\"\")",
+        "detail": "Session 19 String Width & Multiline.session19",
+        "documentation": {}
+    },
+    {
+        "label": "tinggi",
+        "kind": 5,
+        "importPath": "Session 19 String Width & Multiline.session19",
+        "description": "Session 19 String Width & Multiline.session19",
+        "peekOfCode": "tinggi = 170\nprint(f\"======= String =======\")\nprint(f\"nama saya {nama} \\numur saya {umur} tahun \\ntinggi saya adalah {tinggi} cm\")\nprint(f\"\\n======= String =======\")\nprint(f\"\"\"\nnama saya adalah {nama}\numur saya adalah {umur} tahun\ndan tinggi saya {tinggi} cm\n\"\"\")",
+        "detail": "Session 19 String Width & Multiline.session19",
+        "documentation": {}
+    },
+    {
+        "label": "today",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "today = dt.date.today()\n# # Mencetak tanggal hari ini\n# print(\"Tanggal hari ini: \", today)\n# tanggal_lahir = dt.date(2003,4,10)\n# print(f\"hari lahir gua adalah:  {tanggal_lahir}\")\nprint(\"masukan tanggal, bulan, tahun anda\")\ntanggal = int(input(f\"masukan tanggal anda \\t:\"))\nbulan = int(input(f\"masukan bulan anda \\t:\"))\ntahun = int(input(f\"masukan tahun anda \\t:\"))\nlahir = dt.date(tahun, bulan, tanggal)",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "tanggal",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "tanggal = int(input(f\"masukan tanggal anda \\t:\"))\nbulan = int(input(f\"masukan bulan anda \\t:\"))\ntahun = int(input(f\"masukan tahun anda \\t:\"))\nlahir = dt.date(tahun, bulan, tanggal)\nprint(f\"Tanggal Lahir anda adalah : {lahir}\")\nprint(f\"Hari nya adalah : {lahir:%A}\")\numurHari = today - lahir\numurTahun = umurHari.days // 365\nprint(f\"Umur anda sekarang adalah : {umurTahun} tahun\")",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "bulan",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "bulan = int(input(f\"masukan bulan anda \\t:\"))\ntahun = int(input(f\"masukan tahun anda \\t:\"))\nlahir = dt.date(tahun, bulan, tanggal)\nprint(f\"Tanggal Lahir anda adalah : {lahir}\")\nprint(f\"Hari nya adalah : {lahir:%A}\")\numurHari = today - lahir\numurTahun = umurHari.days // 365\nprint(f\"Umur anda sekarang adalah : {umurTahun} tahun\")",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "tahun",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "tahun = int(input(f\"masukan tahun anda \\t:\"))\nlahir = dt.date(tahun, bulan, tanggal)\nprint(f\"Tanggal Lahir anda adalah : {lahir}\")\nprint(f\"Hari nya adalah : {lahir:%A}\")\numurHari = today - lahir\numurTahun = umurHari.days // 365\nprint(f\"Umur anda sekarang adalah : {umurTahun} tahun\")",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "lahir",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "lahir = dt.date(tahun, bulan, tanggal)\nprint(f\"Tanggal Lahir anda adalah : {lahir}\")\nprint(f\"Hari nya adalah : {lahir:%A}\")\numurHari = today - lahir\numurTahun = umurHari.days // 365\nprint(f\"Umur anda sekarang adalah : {umurTahun} tahun\")",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "umurHari",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "umurHari = today - lahir\numurTahun = umurHari.days // 365\nprint(f\"Umur anda sekarang adalah : {umurTahun} tahun\")",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "umurTahun",
+        "kind": 5,
+        "importPath": "session 20 Latihan Date and Time.session20",
+        "description": "session 20 Latihan Date and Time.session20",
+        "peekOfCode": "umurTahun = umurHari.days // 365\nprint(f\"Umur anda sekarang adalah : {umurTahun} tahun\")",
+        "detail": "session 20 Latihan Date and Time.session20",
+        "documentation": {}
+    },
+    {
+        "label": "nama",
+        "kind": 5,
+        "importPath": "session 21 IF ELSE Statement.session20",
+        "description": "session 21 IF ELSE Statement.session20",
+        "peekOfCode": "nama = input(\"\\nMasukan nama kamu: \")\n# Mengecek nama\nif nama == \"Zidhan\" :\n    print(\"\\nSelamat datang Zidhan Ganteng Abieezzzz!\")\nelse:\n    print(f\"\\nHalo {nama}, selamat datang!\")",
+        "detail": "session 21 IF ELSE Statement.session20",
+        "documentation": {}
+    },
+    {
+        "label": "nama",
+        "kind": 5,
+        "importPath": "session 22 ELIF Statement.session22",
+        "description": "session 22 ELIF Statement.session22",
+        "peekOfCode": "nama = input(\"\\nMasukan nama anda: \")\nif nama.lower() == \"zidhan\":\n    print(\"Selamat datang, Zidhan! ganteng abieezzzzzzz!!!!1\")\nelif nama.lower() == \"raffly\":\n    print(\"Selamat datang, Raffly! ganteng abieezzzzzzz tapi boong!!!!1\")\nelse:\n    print(f\"Selamat datang, {nama} jelek!\")",
+        "detail": "session 22 ELIF Statement.session22",
+        "documentation": {}
+    },
+    {
+        "label": "angka1",
+        "kind": 5,
+        "importPath": "session 23 Latihan Percabangan.session23",
+        "description": "session 23 Latihan Percabangan.session23",
+        "peekOfCode": "angka1 = float(input(\"\\nMasukkan angka pertama: \"))\n# Input operator dengan pengecekan ulang\noperator = input(\"\\nMasukkan operator (+, -, *, /): \")\nwhile operator not in [\"+\", \"-\", \"*\", \"/\"]:\n    print(\"\\nError: Operator salah!\")\n    operator = input(\"\\nMasukkan operator yang valid (+, -, *, /): \")\n# Input angka kedua\nangka2 = float(input(\"\\nMasukkan angka kedua: \"))\n# Penanganan operator\nif operator == \"+\":",
+        "detail": "session 23 Latihan Percabangan.session23",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 5,
+        "importPath": "session 23 Latihan Percabangan.session23",
+        "description": "session 23 Latihan Percabangan.session23",
+        "peekOfCode": "operator = input(\"\\nMasukkan operator (+, -, *, /): \")\nwhile operator not in [\"+\", \"-\", \"*\", \"/\"]:\n    print(\"\\nError: Operator salah!\")\n    operator = input(\"\\nMasukkan operator yang valid (+, -, *, /): \")\n# Input angka kedua\nangka2 = float(input(\"\\nMasukkan angka kedua: \"))\n# Penanganan operator\nif operator == \"+\":\n    hasil = angka1 + angka2\n    print(\"\\nHasil Perhitungan adalah: \", hasil)",
+        "detail": "session 23 Latihan Percabangan.session23",
+        "documentation": {}
+    },
+    {
+        "label": "angka2",
+        "kind": 5,
+        "importPath": "session 23 Latihan Percabangan.session23",
+        "description": "session 23 Latihan Percabangan.session23",
+        "peekOfCode": "angka2 = float(input(\"\\nMasukkan angka kedua: \"))\n# Penanganan operator\nif operator == \"+\":\n    hasil = angka1 + angka2\n    print(\"\\nHasil Perhitungan adalah: \", hasil)\nelif operator == \"-\":\n    hasil = angka1 - angka2\n    print(\"\\nHasil Perhitungan adalah: \", hasil)\nelif operator == \"*\":\n    hasil = angka1 * angka2",
+        "detail": "session 23 Latihan Percabangan.session23",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "session 25 While Loop.session25",
+        "description": "session 25 While Loop.session25",
+        "peekOfCode": "i = 0\nwhile i < 10:\n    print(i)\n    i += 1",
+        "detail": "session 25 While Loop.session25",
+        "documentation": {}
+    },
+    {
+        "label": "angka",
+        "kind": 5,
+        "importPath": "session 26 Continue and Pass.session26",
+        "description": "session 26 Continue and Pass.session26",
+        "peekOfCode": "angka = 0\nwhile angka < 5:\n    angka += 1\n    print(\"angka sekarang adalah \", angka)\n    if angka == 3:\n        print(\"mantap\")\n        continue #loncat ke loop selanjutnya\n    # print(\"angka sekarang adalah \", angka)\n    print(\"Selamat datang\") #ini di skip jika ada continue",
+        "detail": "session 26 Continue and Pass.session26",
+        "documentation": {}
+    },
+    {
+        "label": "angka",
+        "kind": 5,
+        "importPath": "session 27 Break.session27",
+        "description": "session 27 Break.session27",
+        "peekOfCode": "angka = 0\nwhile angka < 5 :\n    angka += 1\n    print(angka)\n    if angka == 3 :\n        break   \nprint(\"Loop selesai\")",
+        "detail": "session 27 Break.session27",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "session 28 Latihan Loop.session28",
+        "description": "session 28 Latihan Loop.session28",
+        "peekOfCode": "n = 5\nfor i in range(1, n + 1):\n    print(\" \" * (n - i) + \"*\" * i)\nn = 5\nfor i in range(1, n + 1):\n    print(\" \" * (n - i) + \"*\" * (2 * i - 1))",
+        "detail": "session 28 Latihan Loop.session28",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "session 28 Latihan Loop.session28",
+        "description": "session 28 Latihan Loop.session28",
+        "peekOfCode": "n = 5\nfor i in range(1, n + 1):\n    print(\" \" * (n - i) + \"*\" * (2 * i - 1))",
+        "detail": "session 28 Latihan Loop.session28",
+        "documentation": {}
+    },
+    {
+        "label": "dataAngka",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataAngka = [1, 2, 3]\nprint(dataAngka)\n# kumpulan data string\ndataString = [\"satu\", \"dua\", \"tiga\"]\nprint(dataString)\n# kumpulan data boolean\ndataBoolean = [True, False, True]\nprint(dataBoolean)\n# Kumpulan data campuran\ndataCampuran = [1, \"dua\", True, 3.5]",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataString",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataString = [\"satu\", \"dua\", \"tiga\"]\nprint(dataString)\n# kumpulan data boolean\ndataBoolean = [True, False, True]\nprint(dataBoolean)\n# Kumpulan data campuran\ndataCampuran = [1, \"dua\", True, 3.5]\nprint(dataCampuran)\n# Cara alternatif membat list\ndataRange = range(1, 10, 2) #range(start), stop, step",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataBoolean",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataBoolean = [True, False, True]\nprint(dataBoolean)\n# Kumpulan data campuran\ndataCampuran = [1, \"dua\", True, 3.5]\nprint(dataCampuran)\n# Cara alternatif membat list\ndataRange = range(1, 10, 2) #range(start), stop, step\nprint(dataRange)\ndataList = list(dataRange)\nprint(dataList)",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataCampuran",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataCampuran = [1, \"dua\", True, 3.5]\nprint(dataCampuran)\n# Cara alternatif membat list\ndataRange = range(1, 10, 2) #range(start), stop, step\nprint(dataRange)\ndataList = list(dataRange)\nprint(dataList)\n# Membuat List dengan for loop\ndataList = [\n    i for i in range (0, 10)",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataRange",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataRange = range(1, 10, 2) #range(start), stop, step\nprint(dataRange)\ndataList = list(dataRange)\nprint(dataList)\n# Membuat List dengan for loop\ndataList = [\n    i for i in range (0, 10)\n]\nprint(dataList)\n# Membuat list dengan for dan if",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataList",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataList = list(dataRange)\nprint(dataList)\n# Membuat List dengan for loop\ndataList = [\n    i for i in range (0, 10)\n]\nprint(dataList)\n# Membuat list dengan for dan if\ndataList = [ \n    i 2 for i in range(0, 10)",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataList",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataList = [\n    i for i in range (0, 10)\n]\nprint(dataList)\n# Membuat list dengan for dan if\ndataList = [ \n    i 2 for i in range(0, 10)\n    # i ** 2 for i in range(0, 10)\n    # if i % 2 == 0\n    if i % 2 != 0",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "dataList",
+        "kind": 5,
+        "importPath": "session 29 LIST.session29",
+        "description": "session 29 LIST.session29",
+        "peekOfCode": "dataList = [ \n    i 2 for i in range(0, 10)\n    # i ** 2 for i in range(0, 10)\n    # if i % 2 == 0\n    if i % 2 != 0\n    # if i != 5\n    ]\nprint(dataList)",
+        "detail": "session 29 LIST.session29",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 30 latihan LIST.session30",
+        "description": "session 30 latihan LIST.session30",
+        "peekOfCode": "data = [\"ucup\", \"otong\", \"komek\"]\nprint(data)\n# 1. Mengambil data di index ke 1\nprint(data[1])\n# 2. Mengambil infor panjang data\nprint(len(data))\n# 3. Mengubah data di index ke 2\ndata[2] = \"jontong\"\nprint(data)\n# 4. Menambah data baru",
+        "detail": "session 30 latihan LIST.session30",
+        "documentation": {}
+    },
+    {
+        "label": "data[2]",
+        "kind": 5,
+        "importPath": "session 30 latihan LIST.session30",
+        "description": "session 30 latihan LIST.session30",
+        "peekOfCode": "data[2] = \"jontong\"\nprint(data)\n# 4. Menambah data baru\ndata.append(\"dudung\")\nprint(data)\n# 5. Menghapus data di index ke 1\ndata.remove(\"otong\")\nprint(data)\n# 6. Menambahkan data sesuai posisi pada list\ndata.insert(2, \"gemoy\")",
+        "detail": "session 30 latihan LIST.session30",
+        "documentation": {}
+    },
+    {
+        "label": "data2",
+        "kind": 5,
+        "importPath": "session 30 latihan LIST.session30",
+        "description": "session 30 latihan LIST.session30",
+        "peekOfCode": "data2 = [\"babi\", \"sapi\"]\ndata.extend(data2)\nprint(data)\n# 9. menghapus data ke terakhir\ndata.pop()\nprint(data)\n# 10. Mencari data di dalam list\nprint(\"babi\" in data)\nprint(\"jantung\" in data)\n# 11. Menghapus semua data",
+        "detail": "session 30 latihan LIST.session30",
+        "documentation": {}
+    },
+    {
+        "label": "dataAngka",
+        "kind": 5,
+        "importPath": "session 31 Operasi List.session31",
+        "description": "session 31 Operasi List.session31",
+        "peekOfCode": "dataAngka = [1,2,1,4,5,3,2,7,8,7,9,6,8,9,3,4,2,5]\n# 1. Menghitung Data\ncount = dataAngka.count(4)\nprint(f\"Jumlah angka nya ada: {count}\")\n# 2. ambil posisi data (index)\ndataString = [\"otong\", \"dudung\", \"ujang\"]\nindex = dataString.index(\"dudung\")\nprint(f\"Index dudung adalah ke: {index}\")\n# 3. Sorting data\nsort = dataAngka.sort()",
+        "detail": "session 31 Operasi List.session31",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "session 31 Operasi List.session31",
+        "description": "session 31 Operasi List.session31",
+        "peekOfCode": "count = dataAngka.count(4)\nprint(f\"Jumlah angka nya ada: {count}\")\n# 2. ambil posisi data (index)\ndataString = [\"otong\", \"dudung\", \"ujang\"]\nindex = dataString.index(\"dudung\")\nprint(f\"Index dudung adalah ke: {index}\")\n# 3. Sorting data\nsort = dataAngka.sort()\nprint(f\"Data angka diurutkan: {dataAngka}\")",
+        "detail": "session 31 Operasi List.session31",
+        "documentation": {}
+    },
+    {
+        "label": "dataString",
+        "kind": 5,
+        "importPath": "session 31 Operasi List.session31",
+        "description": "session 31 Operasi List.session31",
+        "peekOfCode": "dataString = [\"otong\", \"dudung\", \"ujang\"]\nindex = dataString.index(\"dudung\")\nprint(f\"Index dudung adalah ke: {index}\")\n# 3. Sorting data\nsort = dataAngka.sort()\nprint(f\"Data angka diurutkan: {dataAngka}\")",
+        "detail": "session 31 Operasi List.session31",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "session 31 Operasi List.session31",
+        "description": "session 31 Operasi List.session31",
+        "peekOfCode": "index = dataString.index(\"dudung\")\nprint(f\"Index dudung adalah ke: {index}\")\n# 3. Sorting data\nsort = dataAngka.sort()\nprint(f\"Data angka diurutkan: {dataAngka}\")",
+        "detail": "session 31 Operasi List.session31",
+        "documentation": {}
+    },
+    {
+        "label": "sort",
+        "kind": 5,
+        "importPath": "session 31 Operasi List.session31",
+        "description": "session 31 Operasi List.session31",
+        "peekOfCode": "sort = dataAngka.sort()\nprint(f\"Data angka diurutkan: {dataAngka}\")",
+        "detail": "session 31 Operasi List.session31",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 32 Copy List.session32",
+        "description": "session 32 Copy List.session32",
+        "peekOfCode": "a = [\"ucup\", \"otong\", \"dudung\"]\nprint(f\"isi data dari a : {a}\")\nb = a\n# ini bukan copy atau duplikat list\nprint(f\"isi data dari b : {b}\")\n# merubah data dari a\na[0] = \"zidhan\"\nb.sort()\n# cek perubahan data\nprint(f\"\\nisi data yang sama antara a dan b setelah diubah :\")",
+        "detail": "session 32 Copy List.session32",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 32 Copy List.session32",
+        "description": "session 32 Copy List.session32",
+        "peekOfCode": "b = a\n# ini bukan copy atau duplikat list\nprint(f\"isi data dari b : {b}\")\n# merubah data dari a\na[0] = \"zidhan\"\nb.sort()\n# cek perubahan data\nprint(f\"\\nisi data yang sama antara a dan b setelah diubah :\")\nprint(f\"a : {a}\")\nprint(f\"b : {b}\")",
+        "detail": "session 32 Copy List.session32",
+        "documentation": {}
+    },
+    {
+        "label": "a[0]",
+        "kind": 5,
+        "importPath": "session 32 Copy List.session32",
+        "description": "session 32 Copy List.session32",
+        "peekOfCode": "a[0] = \"zidhan\"\nb.sort()\n# cek perubahan data\nprint(f\"\\nisi data yang sama antara a dan b setelah diubah :\")\nprint(f\"a : {a}\")\nprint(f\"b : {b}\")\n# menduplikat list\nprint(\"\\nMenduplikat list\")\nc = a.copy()\nprint(\"\\nMenduplikat list\", c)",
+        "detail": "session 32 Copy List.session32",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "session 32 Copy List.session32",
+        "description": "session 32 Copy List.session32",
+        "peekOfCode": "c = a.copy()\nprint(\"\\nMenduplikat list\", c)",
+        "detail": "session 32 Copy List.session32",
+        "documentation": {}
+    },
+    {
+        "label": "data1",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "data1 = [1,2,3]\ndata2 = [4,1,3]\nlistBiasa = [1,2,3,4,5]\nprint(f\"nestedList: {data1, data2}\")\nprint(f\"listBiasa: {listBiasa}\")\nnestedList = [\n    [\n        1,2,3\n    ],\n    [",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "data2",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "data2 = [4,1,3]\nlistBiasa = [1,2,3,4,5]\nprint(f\"nestedList: {data1, data2}\")\nprint(f\"listBiasa: {listBiasa}\")\nnestedList = [\n    [\n        1,2,3\n    ],\n    [\n        4,1,3",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "listBiasa",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "listBiasa = [1,2,3,4,5]\nprint(f\"nestedList: {data1, data2}\")\nprint(f\"listBiasa: {listBiasa}\")\nnestedList = [\n    [\n        1,2,3\n    ],\n    [\n        4,1,3\n    ],",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "nestedList",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "nestedList = [\n    [\n        1,2,3\n    ],\n    [\n        4,1,3\n    ],\n]\nprint(f\"nestedList: {nestedList}\")\n# Contoh dengan Loop",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "pesertaSatu",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "pesertaSatu = [\"otong\", 20, \"Laki-Laki\"]\npesertaDua = [\"meeley\", 22, \"Perempuan\"]\npesertaTiga = [\"dudung\", 21, \"Laki-Laki\"]\nlistPeserta = [pesertaSatu, pesertaDua, pesertaTiga]\nfor peserta in listPeserta:\n    print(f\"\\nNama\\t\\t: {peserta[0]}\")\n    print(f\"Umur\\t\\t: {peserta[1]}\")\n    print(f\"Jenis Kelamin\\t: {peserta[2]}\\n\")",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "pesertaDua",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "pesertaDua = [\"meeley\", 22, \"Perempuan\"]\npesertaTiga = [\"dudung\", 21, \"Laki-Laki\"]\nlistPeserta = [pesertaSatu, pesertaDua, pesertaTiga]\nfor peserta in listPeserta:\n    print(f\"\\nNama\\t\\t: {peserta[0]}\")\n    print(f\"Umur\\t\\t: {peserta[1]}\")\n    print(f\"Jenis Kelamin\\t: {peserta[2]}\\n\")",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "pesertaTiga",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "pesertaTiga = [\"dudung\", 21, \"Laki-Laki\"]\nlistPeserta = [pesertaSatu, pesertaDua, pesertaTiga]\nfor peserta in listPeserta:\n    print(f\"\\nNama\\t\\t: {peserta[0]}\")\n    print(f\"Umur\\t\\t: {peserta[1]}\")\n    print(f\"Jenis Kelamin\\t: {peserta[2]}\\n\")",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "listPeserta",
+        "kind": 5,
+        "importPath": "session 33 Nested List.session33",
+        "description": "session 33 Nested List.session33",
+        "peekOfCode": "listPeserta = [pesertaSatu, pesertaDua, pesertaTiga]\nfor peserta in listPeserta:\n    print(f\"\\nNama\\t\\t: {peserta[0]}\")\n    print(f\"Umur\\t\\t: {peserta[1]}\")\n    print(f\"Jenis Kelamin\\t: {peserta[2]}\\n\")",
+        "detail": "session 33 Nested List.session33",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 34 Deep Copy Nested List.session34",
+        "description": "session 34 Deep Copy Nested List.session34",
+        "peekOfCode": "data = [\n    [1, 2,3],\n    [4, 5, 6],\n    [7, 8, 9]\n]\nprint(f\"Data List: {data}\")\n# Mengakses data di index ke 2, 1\nprint(f\"Data di index 2,1: {data[2][1]}\")\n# jika ingin mengubah member dari list bersarang atau nested list tidak bisa gunakan copy() harus gunakan deepcopy dan import library nya",
+        "detail": "session 34 Deep Copy Nested List.session34",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 35 Looping List dan Enumerate.session35",
+        "description": "session 35 Looping List dan Enumerate.session35",
+        "peekOfCode": "data = [3,2,1,7,6,5,4]\nprint(f\"\\nFOR LOOP\")\nfor angka in data:\n    print(f\"angka : {angka}\")\n# for loop dan range\ndata = [1,2,3,4]\nprint(f\"\\nFOR LOOP RANGE\")\nfor i in range(len(data)):\n    print(f\"angka : {data[i]}\")\n# while loop",
+        "detail": "session 35 Looping List dan Enumerate.session35",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 35 Looping List dan Enumerate.session35",
+        "description": "session 35 Looping List dan Enumerate.session35",
+        "peekOfCode": "data = [1,2,3,4]\nprint(f\"\\nFOR LOOP RANGE\")\nfor i in range(len(data)):\n    print(f\"angka : {data[i]}\")\n# while loop\nprint(f\"\\nWHILE LOOP\")\ni = 0\nwhile i < len(data) :\n    print(f\"angka : {data[i]}\")\n    i += 1",
+        "detail": "session 35 Looping List dan Enumerate.session35",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "session 35 Looping List dan Enumerate.session35",
+        "description": "session 35 Looping List dan Enumerate.session35",
+        "peekOfCode": "i = 0\nwhile i < len(data) :\n    print(f\"angka : {data[i]}\")\n    i += 1\n# list comprehension\nprint(f\"\\nLIST COMPREHENSION\")\ndata = [\"dudung\", 2, 3, 4, \"otong\"]\n[print(f\"data = {i}\") for i in data]\n# Enumerate\nprint(f\"\\nENUMERATE\")",
+        "detail": "session 35 Looping List dan Enumerate.session35",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 35 Looping List dan Enumerate.session35",
+        "description": "session 35 Looping List dan Enumerate.session35",
+        "peekOfCode": "data = [\"dudung\", 2, 3, 4, \"otong\"]\n[print(f\"data = {i}\") for i in data]\n# Enumerate\nprint(f\"\\nENUMERATE\")\ndata = [\"dudung\", 2, 3, 4, \"otong\"]\nfor index, value in enumerate(data):\n    print(f\"index = {index}, value = {value}\")",
+        "detail": "session 35 Looping List dan Enumerate.session35",
+        "documentation": {}
+    },
+    {
+        "label": "[print(f\"data",
+        "kind": 5,
+        "importPath": "session 35 Looping List dan Enumerate.session35",
+        "description": "session 35 Looping List dan Enumerate.session35",
+        "peekOfCode": "[print(f\"data = {i}\") for i in data]\n# Enumerate\nprint(f\"\\nENUMERATE\")\ndata = [\"dudung\", 2, 3, 4, \"otong\"]\nfor index, value in enumerate(data):\n    print(f\"index = {index}, value = {value}\")",
+        "detail": "session 35 Looping List dan Enumerate.session35",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 35 Looping List dan Enumerate.session35",
+        "description": "session 35 Looping List dan Enumerate.session35",
+        "peekOfCode": "data = [\"dudung\", 2, 3, 4, \"otong\"]\nfor index, value in enumerate(data):\n    print(f\"index = {index}, value = {value}\")",
+        "detail": "session 35 Looping List dan Enumerate.session35",
+        "documentation": {}
+    },
+    {
+        "label": "listBuku",
+        "kind": 5,
+        "importPath": "session 36 Latihan List.session36",
+        "description": "session 36 Latihan List.session36",
+        "peekOfCode": "listBuku = []\nwhile True:\n    judul = input(\"Judul buku\\t: \")\n    author = input(\"Nama Penulis\\t: \")\n    buku = [judul, author]\n    listBuku.append(buku)\n    for index, buku in enumerate(listBuku):\n        print(f\"{index+1}. {buku[0]} - {buku[1]}\")\n    islanjut = input(\"Apakah ingin membuat data lagi? (y/n)\\t:\")\n    if islanjut.lower() != \"y\":",
+        "detail": "session 36 Latihan List.session36",
+        "documentation": {}
+    },
+    {
+        "label": "dataList",
+        "kind": 5,
+        "importPath": "session 37 Tuples and Set.session37",
+        "description": "session 37 Tuples and Set.session37",
+        "peekOfCode": "dataList = [1,2,3]\n# Tuples and Set\ndataTuples = (1,2,3)\n# tuples tidak bisa mengubah data dengan cara seperti ini\n# dataTuples[0] = \"zidhan\"\n# tidak bisa diubah data nya\n# dan \n# dataTuples.append(1)\n# sets\ndataSet = {3,7,4,6}",
+        "detail": "session 37 Tuples and Set.session37",
+        "documentation": {}
+    },
+    {
+        "label": "dataTuples",
+        "kind": 5,
+        "importPath": "session 37 Tuples and Set.session37",
+        "description": "session 37 Tuples and Set.session37",
+        "peekOfCode": "dataTuples = (1,2,3)\n# tuples tidak bisa mengubah data dengan cara seperti ini\n# dataTuples[0] = \"zidhan\"\n# tidak bisa diubah data nya\n# dan \n# dataTuples.append(1)\n# sets\ndataSet = {3,7,4,6}\n# tidak punya index dan akan ter sort otomatis\nprint(dataSet)",
+        "detail": "session 37 Tuples and Set.session37",
+        "documentation": {}
+    },
+    {
+        "label": "dataSet",
+        "kind": 5,
+        "importPath": "session 37 Tuples and Set.session37",
+        "description": "session 37 Tuples and Set.session37",
+        "peekOfCode": "dataSet = {3,7,4,6}\n# tidak punya index dan akan ter sort otomatis\nprint(dataSet)",
+        "detail": "session 37 Tuples and Set.session37",
+        "documentation": {}
+    },
+    {
+        "label": "dataDict",
+        "kind": 5,
+        "importPath": "session 38 Dictionary.session38",
+        "description": "session 38 Dictionary.session38",
+        "peekOfCode": "dataDict = {\n    \"nama\": \"Zidhan\",\n    \"umur\": 27,\n    \"hobi\": [\"membaca\", \"bermain game\"],\n    \"pekerjaan\": \"Mahasiswa\"\n}\n# print(dataDict)\nprint(dataDict[\"hobi\"])",
+        "detail": "session 38 Dictionary.session38",
+        "documentation": {}
+    },
+    {
+        "label": "dataDict",
+        "kind": 5,
+        "importPath": "session 39 Operasi Dictionary.session39",
+        "description": "session 39 Operasi Dictionary.session39",
+        "peekOfCode": "dataDict = {\n    \"nama\": \"Zidhan Raffly\",\n    \"umur\": 21,\n    \"pekerjaan\": \"Programmer\"\n}\n# Panjang Dictionary\npanjangDict = len(dataDict)\nprint(f\"Panjang dictionary: {panjangDict}\")\n# Mengecek key exist                    \nkeyExist = \"nama\" in dataDict",
+        "detail": "session 39 Operasi Dictionary.session39",
+        "documentation": {}
+    },
+    {
+        "label": "panjangDict",
+        "kind": 5,
+        "importPath": "session 39 Operasi Dictionary.session39",
+        "description": "session 39 Operasi Dictionary.session39",
+        "peekOfCode": "panjangDict = len(dataDict)\nprint(f\"Panjang dictionary: {panjangDict}\")\n# Mengecek key exist                    \nkeyExist = \"nama\" in dataDict\nprint(f\"Key 'nama' ada di dictionary: {keyExist}\")\n# Mengakses value (read) dengan get\n# print(dataDict[\"nama\"])\nvalue = dataDict.get(\"nama\")\nprint(f\"Value 'nama': {value}\")\nvalue = dataDict.get(\"lahir\")",
+        "detail": "session 39 Operasi Dictionary.session39",
+        "documentation": {}
+    },
+    {
+        "label": "keyExist",
+        "kind": 5,
+        "importPath": "session 39 Operasi Dictionary.session39",
+        "description": "session 39 Operasi Dictionary.session39",
+        "peekOfCode": "keyExist = \"nama\" in dataDict\nprint(f\"Key 'nama' ada di dictionary: {keyExist}\")\n# Mengakses value (read) dengan get\n# print(dataDict[\"nama\"])\nvalue = dataDict.get(\"nama\")\nprint(f\"Value 'nama': {value}\")\nvalue = dataDict.get(\"lahir\")\nprint(f\"Value 'lahir': {value}\", \"key tidak ditemukan\") # Mengecek key dan memberi komentar\n# Mengupdate data\ndataDict[\"nama\"] = \"ucup bensin\"",
+        "detail": "session 39 Operasi Dictionary.session39",
+        "documentation": {}
+    },
+    {
+        "label": "value",
+        "kind": 5,
+        "importPath": "session 39 Operasi Dictionary.session39",
+        "description": "session 39 Operasi Dictionary.session39",
+        "peekOfCode": "value = dataDict.get(\"nama\")\nprint(f\"Value 'nama': {value}\")\nvalue = dataDict.get(\"lahir\")\nprint(f\"Value 'lahir': {value}\", \"key tidak ditemukan\") # Mengecek key dan memberi komentar\n# Mengupdate data\ndataDict[\"nama\"] = \"ucup bensin\"\nprint(dataDict)\n# Menambah nilai dengan cara salah\n# dataDict[\"lahir\"] = \"Bogor\"\n# print(dataDict)",
+        "detail": "session 39 Operasi Dictionary.session39",
+        "documentation": {}
+    },
+    {
+        "label": "value",
+        "kind": 5,
+        "importPath": "session 39 Operasi Dictionary.session39",
+        "description": "session 39 Operasi Dictionary.session39",
+        "peekOfCode": "value = dataDict.get(\"lahir\")\nprint(f\"Value 'lahir': {value}\", \"key tidak ditemukan\") # Mengecek key dan memberi komentar\n# Mengupdate data\ndataDict[\"nama\"] = \"ucup bensin\"\nprint(dataDict)\n# Menambah nilai dengan cara salah\n# dataDict[\"lahir\"] = \"Bogor\"\n# print(dataDict)\n# Menambah nilai dengan cara benar\ndataDict.update({\"lahir\" : \"Bogor\"})",
+        "detail": "session 39 Operasi Dictionary.session39",
+        "documentation": {}
+    },
+    {
+        "label": "dataDict[\"nama\"]",
+        "kind": 5,
+        "importPath": "session 39 Operasi Dictionary.session39",
+        "description": "session 39 Operasi Dictionary.session39",
+        "peekOfCode": "dataDict[\"nama\"] = \"ucup bensin\"\nprint(dataDict)\n# Menambah nilai dengan cara salah\n# dataDict[\"lahir\"] = \"Bogor\"\n# print(dataDict)\n# Menambah nilai dengan cara benar\ndataDict.update({\"lahir\" : \"Bogor\"})\nprint(dataDict)\n# Menghapus data\ndel dataDict[\"lahir\"]",
+        "detail": "session 39 Operasi Dictionary.session39",
+        "documentation": {}
+    },
+    {
+        "label": "dataDict",
+        "kind": 5,
+        "importPath": "session 40 Looping Dictionary.session40",
+        "description": "session 40 Looping Dictionary.session40",
+        "peekOfCode": "dataDict = {\n    \"nama\": \"Zidhan Raffly\",\n    \"umur\": 21,\n    \"pekerjaan\": \"Programmer\"\n}\n# looping first try untuk mengambil key nya\nfor key in dataDict:\n    print(key)\n# looping mengambil iterrables\nfor key in dataDict.keys():",
+        "detail": "session 40 Looping Dictionary.session40",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "kind": 5,
+        "importPath": "session 40 Looping Dictionary.session40",
+        "description": "session 40 Looping Dictionary.session40",
+        "peekOfCode": "items = dataDict.items()\nprint(items)\nfor item in dataDict.items():\n    print(item)\nfor key, value in dataDict.items():\n    print(f\"Key: {key}, Value: {value}\")",
+        "detail": "session 40 Looping Dictionary.session40",
+        "documentation": {}
+    },
+    {
+        "label": "dataDict",
+        "kind": 5,
+        "importPath": "session 41 Copy and Pop Dictionary.session41",
+        "description": "session 41 Copy and Pop Dictionary.session41",
+        "peekOfCode": "dataDict = {\n    \"nama\": \"Zidhan Raffly\",\n    \"umur\": 21,\n    \"pekerjaan\": \"Programmer\"\n}\ndataDictCopy = dataDict.copy()\nprint(dataDict)\nprint(dataDictCopy)\n# ubah data dataDict\ndataDict[\"nama\"] = \"Zidhan\"",
+        "detail": "session 41 Copy and Pop Dictionary.session41",
+        "documentation": {}
+    },
+    {
+        "label": "dataDictCopy",
+        "kind": 5,
+        "importPath": "session 41 Copy and Pop Dictionary.session41",
+        "description": "session 41 Copy and Pop Dictionary.session41",
+        "peekOfCode": "dataDictCopy = dataDict.copy()\nprint(dataDict)\nprint(dataDictCopy)\n# ubah data dataDict\ndataDict[\"nama\"] = \"Zidhan\"\nprint(dataDict)\nprint(dataDictCopy)  # dataDictCopy tetap sama, karena copy() bukan deep copy. Menyimpan referensi ke objek asli.\n# Pop Dictionary -> ambil berdasarkan key\ndataDict.pop(\"umur\")\nprint(f\"\\nini adalah hasil pop: {dataDict}\")",
+        "detail": "session 41 Copy and Pop Dictionary.session41",
+        "documentation": {}
+    },
+    {
+        "label": "dataDict[\"nama\"]",
+        "kind": 5,
+        "importPath": "session 41 Copy and Pop Dictionary.session41",
+        "description": "session 41 Copy and Pop Dictionary.session41",
+        "peekOfCode": "dataDict[\"nama\"] = \"Zidhan\"\nprint(dataDict)\nprint(dataDictCopy)  # dataDictCopy tetap sama, karena copy() bukan deep copy. Menyimpan referensi ke objek asli.\n# Pop Dictionary -> ambil berdasarkan key\ndataDict.pop(\"umur\")\nprint(f\"\\nini adalah hasil pop: {dataDict}\")\n# Pop item dictionary -> ambil data terakhir saja\nitem = dataDict.popitem()\nprint(f\"\\nini adalah hasil popitem: {item}\")",
+        "detail": "session 41 Copy and Pop Dictionary.session41",
+        "documentation": {}
+    },
+    {
+        "label": "item",
+        "kind": 5,
+        "importPath": "session 41 Copy and Pop Dictionary.session41",
+        "description": "session 41 Copy and Pop Dictionary.session41",
+        "peekOfCode": "item = dataDict.popitem()\nprint(f\"\\nini adalah hasil popitem: {item}\")",
+        "detail": "session 41 Copy and Pop Dictionary.session41",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswa_list",
+        "kind": 5,
+        "importPath": "session 42 Nesting Dictionary.session42",
+        "description": "session 42 Nesting Dictionary.session42",
+        "peekOfCode": "mahasiswa_list = [\n    {\n        \"nama\": \"Zidhan Raffly\",\n        \"nim\": 123456789,\n        \"kelas\": \"TI-2A\",\n        \"jurusan\": \"Teknik Informatika\",\n        \"ipk\": 3.85,\n        \"hobi\": [\"coding\", \"membaca\", \"menyanyi\"],\n        \"beasiswa\": False,\n        \"lahir\": datetime.date(2003, 4, 10)",
+        "detail": "session 42 Nesting Dictionary.session42",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswaTemplate",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "mahasiswaTemplate = {\n    \"nama\": \"John Doe\",\n    \"nim\": \"1234567890\",\n    \"lulus\": 0,\n    \"tanggal_lahir\": datetime.date(1111,1,1),\n}\ndataMahasiswa = {}\nos.system(\"clear\")\nprint(f\"{'Selamat Datang' :^20}\") \nprint(f\"{'Data Mahasiswa' :^20}\") ",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "dataMahasiswa",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "dataMahasiswa = {}\nos.system(\"clear\")\nprint(f\"{'Selamat Datang' :^20}\") \nprint(f\"{'Data Mahasiswa' :^20}\") \nmahasiswa = dict.fromkeys(mahasiswaTemplate.keys())\nprint(mahasiswa)\nmahasiswa[\"nama\"] = input(\"Masukan Nama Mahasiswa: \")\nmahasiswa[\"nim\"] = input(\"Masukan NIM Mahasiswa: \")\nmahasiswa[\"lulus\"] = int(input(\"Masukan Data Kelulusan: \"))\ntahunLahir = int(input(\"Tahun Lahir (YYYY): \"))",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswa",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "mahasiswa = dict.fromkeys(mahasiswaTemplate.keys())\nprint(mahasiswa)\nmahasiswa[\"nama\"] = input(\"Masukan Nama Mahasiswa: \")\nmahasiswa[\"nim\"] = input(\"Masukan NIM Mahasiswa: \")\nmahasiswa[\"lulus\"] = int(input(\"Masukan Data Kelulusan: \"))\ntahunLahir = int(input(\"Tahun Lahir (YYYY): \"))\nbulanLahir = int(input(\"Tanggal Lahir (1-12): \"))\ntanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswa[\"nama\"]",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "mahasiswa[\"nama\"] = input(\"Masukan Nama Mahasiswa: \")\nmahasiswa[\"nim\"] = input(\"Masukan NIM Mahasiswa: \")\nmahasiswa[\"lulus\"] = int(input(\"Masukan Data Kelulusan: \"))\ntahunLahir = int(input(\"Tahun Lahir (YYYY): \"))\nbulanLahir = int(input(\"Tanggal Lahir (1-12): \"))\ntanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswa[\"nim\"]",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "mahasiswa[\"nim\"] = input(\"Masukan NIM Mahasiswa: \")\nmahasiswa[\"lulus\"] = int(input(\"Masukan Data Kelulusan: \"))\ntahunLahir = int(input(\"Tahun Lahir (YYYY): \"))\nbulanLahir = int(input(\"Tanggal Lahir (1-12): \"))\ntanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswa[\"lulus\"]",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "mahasiswa[\"lulus\"] = int(input(\"Masukan Data Kelulusan: \"))\ntahunLahir = int(input(\"Tahun Lahir (YYYY): \"))\nbulanLahir = int(input(\"Tanggal Lahir (1-12): \"))\ntanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "tahunLahir",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "tahunLahir = int(input(\"Tahun Lahir (YYYY): \"))\nbulanLahir = int(input(\"Tanggal Lahir (1-12): \"))\ntanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "bulanLahir",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "bulanLahir = int(input(\"Tanggal Lahir (1-12): \"))\ntanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "tanggalLahir",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "tanggalLahir = int(input(\"Tanggal Lahir (1-31): \"))\nmahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "mahasiswa[\"tanggal_lahir\"]",
+        "kind": 5,
+        "importPath": "session 43 Latihan Dictionary.latihan1",
+        "description": "session 43 Latihan Dictionary.latihan1",
+        "peekOfCode": "mahasiswa[\"tanggal_lahir\"] = datetime.date(tahunLahir,bulanLahir,tanggalLahir)\nprint(mahasiswa)",
+        "detail": "session 43 Latihan Dictionary.latihan1",
+        "documentation": {}
+    },
+    {
+        "label": "print_hello",
+        "kind": 2,
+        "importPath": "session 44 Pengenalan Fungsi.sessoin44",
+        "description": "session 44 Pengenalan Fungsi.sessoin44",
+        "peekOfCode": "def print_hello():\n    print(\"Hello world\")\n    print(\"Ucup JuanjhihYo\")\nprint_hello()\nprint_hello()\n# Fungsi print() dengan parameter\ndef print_message(message):\n    print(message)\nprint_message(\"Selamat datang di Python\")\nprint_message(\"Ucup JuanjhihYo\")",
+        "detail": "session 44 Pengenalan Fungsi.sessoin44",
+        "documentation": {}
+    },
+    {
+        "label": "print_message",
+        "kind": 2,
+        "importPath": "session 44 Pengenalan Fungsi.sessoin44",
+        "description": "session 44 Pengenalan Fungsi.sessoin44",
+        "peekOfCode": "def print_message(message):\n    print(message)\nprint_message(\"Selamat datang di Python\")\nprint_message(\"Ucup JuanjhihYo\")",
+        "detail": "session 44 Pengenalan Fungsi.sessoin44",
+        "documentation": {}
+    },
+    {
+        "label": "cetakTeks",
+        "kind": 2,
+        "importPath": "session 45 Fungsi dengan Argument.session45",
+        "description": "session 45 Fungsi dengan Argument.session45",
+        "peekOfCode": "def cetakTeks(teks): #(teks) -> sebagai parameter atau menerima inputan\n    print(teks)\ncetakTeks(\"Hello world\") # (teks) -> sebagai parameter atau menerima\n# Fungsi dengan Argumen yang diberikan nilai default\ndef cetakTeksDenganDefault(teks=\"Halo dunia\"):\n    print(teks)\ncetakTeksDenganDefault() # teks default adalah \"Halo dunia\"\ndef sayHi(listPeserta):\n    dataPeserta = listPeserta.copy()\n    for peserta in dataPeserta:",
+        "detail": "session 45 Fungsi dengan Argument.session45",
+        "documentation": {}
+    },
+    {
+        "label": "cetakTeksDenganDefault",
+        "kind": 2,
+        "importPath": "session 45 Fungsi dengan Argument.session45",
+        "description": "session 45 Fungsi dengan Argument.session45",
+        "peekOfCode": "def cetakTeksDenganDefault(teks=\"Halo dunia\"):\n    print(teks)\ncetakTeksDenganDefault() # teks default adalah \"Halo dunia\"\ndef sayHi(listPeserta):\n    dataPeserta = listPeserta.copy()\n    for peserta in dataPeserta:\n        print(f\"Halo, {peserta}\")\npeserta = [\"Alice\", \"Bob\", \"Charlie\"]\nsayHi(peserta) # listPeserta -> sebagai parameter yang diberikan",
+        "detail": "session 45 Fungsi dengan Argument.session45",
+        "documentation": {}
+    },
+    {
+        "label": "sayHi",
+        "kind": 2,
+        "importPath": "session 45 Fungsi dengan Argument.session45",
+        "description": "session 45 Fungsi dengan Argument.session45",
+        "peekOfCode": "def sayHi(listPeserta):\n    dataPeserta = listPeserta.copy()\n    for peserta in dataPeserta:\n        print(f\"Halo, {peserta}\")\npeserta = [\"Alice\", \"Bob\", \"Charlie\"]\nsayHi(peserta) # listPeserta -> sebagai parameter yang diberikan",
+        "detail": "session 45 Fungsi dengan Argument.session45",
+        "documentation": {}
+    },
+    {
+        "label": "peserta",
+        "kind": 5,
+        "importPath": "session 45 Fungsi dengan Argument.session45",
+        "description": "session 45 Fungsi dengan Argument.session45",
+        "peekOfCode": "peserta = [\"Alice\", \"Bob\", \"Charlie\"]\nsayHi(peserta) # listPeserta -> sebagai parameter yang diberikan",
+        "detail": "session 45 Fungsi dengan Argument.session45",
+        "documentation": {}
+    },
+    {
+        "label": "cetakSalam",
+        "kind": 2,
+        "importPath": "session 46 Fungsi dengan Return.session46",
+        "description": "session 46 Fungsi dengan Return.session46",
+        "peekOfCode": "def cetakSalam(nama):\n    return f\"Selamat pagi, {nama}!\"\n# pemanggilan fungsi\nnamaUser = input(\"Masukan nama anda: \")\nprint(cetakSalam(namaUser))\n# Fungsi dengan Return dan Parameter\ndef hitungLuasSegitiga(alas, tinggi):\n    luas = 0.5 * alas * tinggi\n    return luas\nalasSegitiga = float(input(\"Masukan alas segitiga: \"))",
+        "detail": "session 46 Fungsi dengan Return.session46",
+        "documentation": {}
+    },
+    {
+        "label": "hitungLuasSegitiga",
+        "kind": 2,
+        "importPath": "session 46 Fungsi dengan Return.session46",
+        "description": "session 46 Fungsi dengan Return.session46",
+        "peekOfCode": "def hitungLuasSegitiga(alas, tinggi):\n    luas = 0.5 * alas * tinggi\n    return luas\nalasSegitiga = float(input(\"Masukan alas segitiga: \"))\ntinggiSegitiga = float(input(\"Masukan tinggi segitiga: \"))\nprint(f\"Luas segitiga dengan alas {alasSegitiga} dan tinggi {tinggiSegitiga} adalah: {hitungLuasSegitiga(alasSegitiga, tinggiSegitiga)}\")",
+        "detail": "session 46 Fungsi dengan Return.session46",
+        "documentation": {}
+    },
+    {
+        "label": "namaUser",
+        "kind": 5,
+        "importPath": "session 46 Fungsi dengan Return.session46",
+        "description": "session 46 Fungsi dengan Return.session46",
+        "peekOfCode": "namaUser = input(\"Masukan nama anda: \")\nprint(cetakSalam(namaUser))\n# Fungsi dengan Return dan Parameter\ndef hitungLuasSegitiga(alas, tinggi):\n    luas = 0.5 * alas * tinggi\n    return luas\nalasSegitiga = float(input(\"Masukan alas segitiga: \"))\ntinggiSegitiga = float(input(\"Masukan tinggi segitiga: \"))\nprint(f\"Luas segitiga dengan alas {alasSegitiga} dan tinggi {tinggiSegitiga} adalah: {hitungLuasSegitiga(alasSegitiga, tinggiSegitiga)}\")",
+        "detail": "session 46 Fungsi dengan Return.session46",
+        "documentation": {}
+    },
+    {
+        "label": "alasSegitiga",
+        "kind": 5,
+        "importPath": "session 46 Fungsi dengan Return.session46",
+        "description": "session 46 Fungsi dengan Return.session46",
+        "peekOfCode": "alasSegitiga = float(input(\"Masukan alas segitiga: \"))\ntinggiSegitiga = float(input(\"Masukan tinggi segitiga: \"))\nprint(f\"Luas segitiga dengan alas {alasSegitiga} dan tinggi {tinggiSegitiga} adalah: {hitungLuasSegitiga(alasSegitiga, tinggiSegitiga)}\")",
+        "detail": "session 46 Fungsi dengan Return.session46",
+        "documentation": {}
+    },
+    {
+        "label": "tinggiSegitiga",
+        "kind": 5,
+        "importPath": "session 46 Fungsi dengan Return.session46",
+        "description": "session 46 Fungsi dengan Return.session46",
+        "peekOfCode": "tinggiSegitiga = float(input(\"Masukan tinggi segitiga: \"))\nprint(f\"Luas segitiga dengan alas {alasSegitiga} dan tinggi {tinggiSegitiga} adalah: {hitungLuasSegitiga(alasSegitiga, tinggiSegitiga)}\")",
+        "detail": "session 46 Fungsi dengan Return.session46",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "session 47 Default Argument Fungsi.session47",
+        "description": "session 47 Default Argument Fungsi.session47",
+        "peekOfCode": "def greet(name=\"User\"):\n    print(f\"Hello, {name}!\")\ngreet()\ngreet(\"Alice\")\n# Keyword Argument\ndef greet_with_age(name, age):\n    print(f\"Hello, {name}! You are {age} years old.\")\ngreet_with_age(name=\"Alice\", age=25)\ngreet_with_age(age=30, name=\"Bob\")",
+        "detail": "session 47 Default Argument Fungsi.session47",
+        "documentation": {}
+    },
+    {
+        "label": "greet_with_age",
+        "kind": 2,
+        "importPath": "session 47 Default Argument Fungsi.session47",
+        "description": "session 47 Default Argument Fungsi.session47",
+        "peekOfCode": "def greet_with_age(name, age):\n    print(f\"Hello, {name}! You are {age} years old.\")\ngreet_with_age(name=\"Alice\", age=25)\ngreet_with_age(age=30, name=\"Bob\")",
+        "detail": "session 47 Default Argument Fungsi.session47",
+        "documentation": {}
+    },
+    {
+        "label": "hitung_luas_dan_keliling",
+        "kind": 2,
+        "importPath": "session 48 Latihan fungsi.session48",
+        "description": "session 48 Latihan fungsi.session48",
+        "peekOfCode": "def hitung_luas_dan_keliling(panjang, lebar):\n    # Hitung luas persegi panjang\n    luas = panjang * lebar\n    # Hitung keliling persegi panjang\n    keliling = 2 * (panjang + lebar)\n    return luas, keliling\nprint(f\"{'PROGRAM MENGHITUNG LUAS DAN KELILING PERSEGI PANJANG':^40}\")\n# Input panjang dan lebar\npanjang = int(input(\"Masukan panjang persegi panjang: \"))\nlebar = int(input(\"Masukan lebar persegi panjang: \"))",
+        "detail": "session 48 Latihan fungsi.session48",
+        "documentation": {}
+    },
+    {
+        "label": "panjang",
+        "kind": 5,
+        "importPath": "session 48 Latihan fungsi.session48",
+        "description": "session 48 Latihan fungsi.session48",
+        "peekOfCode": "panjang = int(input(\"Masukan panjang persegi panjang: \"))\nlebar = int(input(\"Masukan lebar persegi panjang: \"))\n# Hitung luas dan keliling\nluas, keliling = hitung_luas_dan_keliling(panjang, lebar)\n# Cetak hasil\nprint(f\"Luas persegi panjang adalah: {luas}\")\nprint(f\"Keliling persegi panjang adalah: {keliling}\")",
+        "detail": "session 48 Latihan fungsi.session48",
+        "documentation": {}
+    },
+    {
+        "label": "lebar",
+        "kind": 5,
+        "importPath": "session 48 Latihan fungsi.session48",
+        "description": "session 48 Latihan fungsi.session48",
+        "peekOfCode": "lebar = int(input(\"Masukan lebar persegi panjang: \"))\n# Hitung luas dan keliling\nluas, keliling = hitung_luas_dan_keliling(panjang, lebar)\n# Cetak hasil\nprint(f\"Luas persegi panjang adalah: {luas}\")\nprint(f\"Keliling persegi panjang adalah: {keliling}\")",
+        "detail": "session 48 Latihan fungsi.session48",
+        "documentation": {}
+    },
+    {
+        "label": "typeHints",
+        "kind": 2,
+        "importPath": "session 49 Type Hints pada Fungsi.session 49",
+        "description": "session 49 Type Hints pada Fungsi.session 49",
+        "peekOfCode": "def typeHints(arguments: int) -> int:\n    output = 10 ** arguments\n    return output\nprint(typeHints(2))",
+        "detail": "session 49 Type Hints pada Fungsi.session 49",
+        "documentation": {}
+    },
+    {
+        "label": "fungsi",
+        "kind": 2,
+        "importPath": "session 50 Args.session50",
+        "description": "session 50 Args.session50",
+        "peekOfCode": "def fungsi(nama, tinggi, berat) :\n    print(f\"Nama : {nama}\")\n    print(f\"Tinggi : {tinggi}\")\n    print(f\"Berat : {berat}\")\nfungsi(\"ucup\", 170, 55)\n# mulai *args\ndef fungsi_args(*args) :\n    nama, tinggi, berat = args\n    print(f\"Nama : {nama}\")\n    print(f\"Tinggi : {tinggi}\")",
+        "detail": "session 50 Args.session50",
+        "documentation": {}
+    },
+    {
+        "label": "fungsi_args",
+        "kind": 2,
+        "importPath": "session 50 Args.session50",
+        "description": "session 50 Args.session50",
+        "peekOfCode": "def fungsi_args(*args) :\n    nama, tinggi, berat = args\n    print(f\"Nama : {nama}\")\n    print(f\"Tinggi : {tinggi}\")\n    print(f\"Berat : {berat}\")\nfungsi_args(\"ucup\", 170, 55)\n# studi kasus\ndef tambah(*data):\n    total = 0\n    for item in data:",
+        "detail": "session 50 Args.session50",
+        "documentation": {}
+    },
+    {
+        "label": "tambah",
+        "kind": 2,
+        "importPath": "session 50 Args.session50",
+        "description": "session 50 Args.session50",
+        "peekOfCode": "def tambah(*data):\n    total = 0\n    for item in data:\n        total += item\n    return total\nprint(tambah(1, 2, 3, 4, 5)) # 15",
+        "detail": "session 50 Args.session50",
+        "documentation": {}
+    },
+    {
+        "label": "data_int",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_int = 0\nprint(\"type data integer :\", data_int, type(data_int))\ndata_float = float(data_int)\ndata_string = str(data_int)\ndata_boolean = bool(data_int)\nprint(\"data float :\", data_float)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Float====\")\ndata_float = 0.5",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_float",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_float = float(data_int)\ndata_string = str(data_int)\ndata_boolean = bool(data_int)\nprint(\"data float :\", data_float)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Float====\")\ndata_float = 0.5\nprint(\"type data float :\", data_float, type(data_float))\ndata_int = int(data_float) #dibulatkan kebawah",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_string",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_string = str(data_int)\ndata_boolean = bool(data_int)\nprint(\"data float :\", data_float)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Float====\")\ndata_float = 0.5\nprint(\"type data float :\", data_float, type(data_float))\ndata_int = int(data_float) #dibulatkan kebawah\ndata_string = str(data_float)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_boolean",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_boolean = bool(data_int)\nprint(\"data float :\", data_float)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Float====\")\ndata_float = 0.5\nprint(\"type data float :\", data_float, type(data_float))\ndata_int = int(data_float) #dibulatkan kebawah\ndata_string = str(data_float)\ndata_boolean = bool(data_float)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_float",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_float = 0.5\nprint(\"type data float :\", data_float, type(data_float))\ndata_int = int(data_float) #dibulatkan kebawah\ndata_string = str(data_float)\ndata_boolean = bool(data_float)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Boolean====\")\ndata_boolean = False",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_int",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_int = int(data_float) #dibulatkan kebawah\ndata_string = str(data_float)\ndata_boolean = bool(data_float)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Boolean====\")\ndata_boolean = False\nprint(\"type data boolean :\", data_boolean, type(data_boolean))\ndata_int = int(data_boolean) ",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_string",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_string = str(data_float)\ndata_boolean = bool(data_float)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Boolean====\")\ndata_boolean = False\nprint(\"type data boolean :\", data_boolean, type(data_boolean))\ndata_int = int(data_boolean) \ndata_string = str(data_boolean)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_boolean",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_boolean = bool(data_float)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data boolean :\", data_boolean) #bernilai false jika 0\nprint(\"=====Boolean====\")\ndata_boolean = False\nprint(\"type data boolean :\", data_boolean, type(data_boolean))\ndata_int = int(data_boolean) \ndata_string = str(data_boolean)\ndata_float = float(data_boolean)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_boolean",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_boolean = False\nprint(\"type data boolean :\", data_boolean, type(data_boolean))\ndata_int = int(data_boolean) \ndata_string = str(data_boolean)\ndata_float = float(data_boolean)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data float :\", data_float) \nprint(\"=====String====\")\ndata_string = \"10\"",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_int",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_int = int(data_boolean) \ndata_string = str(data_boolean)\ndata_float = float(data_boolean)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data float :\", data_float) \nprint(\"=====String====\")\ndata_string = \"10\"\nprint(\"type data string :\", data_string, type(data_string))\ndata_int = int(data_string) #string harus angka",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_string",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_string = str(data_boolean)\ndata_float = float(data_boolean)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data float :\", data_float) \nprint(\"=====String====\")\ndata_string = \"10\"\nprint(\"type data string :\", data_string, type(data_string))\ndata_int = int(data_string) #string harus angka\ndata_boolean = bool(data_string) #false jika string kosong",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_float",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_float = float(data_boolean)\nprint(\"data int :\", data_int)\nprint(\"data string :\", data_string)\nprint(\"data float :\", data_float) \nprint(\"=====String====\")\ndata_string = \"10\"\nprint(\"type data string :\", data_string, type(data_string))\ndata_int = int(data_string) #string harus angka\ndata_boolean = bool(data_string) #false jika string kosong\ndata_float = float(data_string) #string harus angka",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_string",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_string = \"10\"\nprint(\"type data string :\", data_string, type(data_string))\ndata_int = int(data_string) #string harus angka\ndata_boolean = bool(data_string) #false jika string kosong\ndata_float = float(data_string) #string harus angka\nprint(\"data int :\", data_int) \nprint(\"data boolean :\", data_boolean)\nprint(\"data float :\", data_float)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_int",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_int = int(data_string) #string harus angka\ndata_boolean = bool(data_string) #false jika string kosong\ndata_float = float(data_string) #string harus angka\nprint(\"data int :\", data_int) \nprint(\"data boolean :\", data_boolean)\nprint(\"data float :\", data_float)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_boolean",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_boolean = bool(data_string) #false jika string kosong\ndata_float = float(data_string) #string harus angka\nprint(\"data int :\", data_int) \nprint(\"data boolean :\", data_boolean)\nprint(\"data float :\", data_float)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "data_float",
+        "kind": 5,
+        "importPath": "session 6 Casting Tipe Data.session6",
+        "description": "session 6 Casting Tipe Data.session6",
+        "peekOfCode": "data_float = float(data_string) #string harus angka\nprint(\"data int :\", data_int) \nprint(\"data boolean :\", data_boolean)\nprint(\"data float :\", data_float)",
+        "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "biner",
+        "kind": 5,
+        "importPath": "session 7 Input User.session7",
+        "description": "session 7 Input User.session7",
+        "peekOfCode": "biner = bool(int(input(\"Masukan data biner: \")))\nprint(\"data kamu adalah : \", biner, type(biner))",
+        "detail": "session 7 Input User.session7",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "a = 10\nb = 3\n# penambahan\nhasil = a + b\n# ribet\nprint(a, \"+\", b, \"=\", hasil)\n# pengurangan\nhasil = a - b\nprint(f\"{a} - {b} = {hasil}\")\n# perkalian",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "b = 3\n# penambahan\nhasil = a + b\n# ribet\nprint(a, \"+\", b, \"=\", hasil)\n# pengurangan\nhasil = a - b\nprint(f\"{a} - {b} = {hasil}\")\n# perkalian\nhasil = a * b",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a + b\n# ribet\nprint(a, \"+\", b, \"=\", hasil)\n# pengurangan\nhasil = a - b\nprint(f\"{a} - {b} = {hasil}\")\n# perkalian\nhasil = a * b\nprint(f\"{a} * {b} = {hasil}\")\n# pembagian",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a - b\nprint(f\"{a} - {b} = {hasil}\")\n# perkalian\nhasil = a * b\nprint(f\"{a} * {b} = {hasil}\")\n# pembagian\nhasil = a / b\nprint(f\"{a} / {b} = {hasil}\")\n# floor division\nhasil = a // b",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a * b\nprint(f\"{a} * {b} = {hasil}\")\n# pembagian\nhasil = a / b\nprint(f\"{a} / {b} = {hasil}\")\n# floor division\nhasil = a // b\nprint(f\"{a} // {b} = {hasil}\")\n# modulus\nhasil = a % b",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a / b\nprint(f\"{a} / {b} = {hasil}\")\n# floor division\nhasil = a // b\nprint(f\"{a} // {b} = {hasil}\")\n# modulus\nhasil = a % b\nprint(f\"{a} % {b} = {hasil}\")\n# eksponen / pangkat\nhasil = a ** b",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a // b\nprint(f\"{a} // {b} = {hasil}\")\n# modulus\nhasil = a % b\nprint(f\"{a} % {b} = {hasil}\")\n# eksponen / pangkat\nhasil = a ** b\nprint(f\"{a} ** {b} = {hasil}\")\n# Prioritas Operasi\n# ()",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a % b\nprint(f\"{a} % {b} = {hasil}\")\n# eksponen / pangkat\nhasil = a ** b\nprint(f\"{a} ** {b} = {hasil}\")\n# Prioritas Operasi\n# ()\n# eksponen / pangkat\n# perkalian / pembagian / modulus / floor division\n# pertambahan / pengurangan",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 8 Operasi Aritmatika.session8",
+        "description": "session 8 Operasi Aritmatika.session8",
+        "peekOfCode": "hasil = a ** b\nprint(f\"{a} ** {b} = {hasil}\")\n# Prioritas Operasi\n# ()\n# eksponen / pangkat\n# perkalian / pembagian / modulus / floor division\n# pertambahan / pengurangan",
+        "detail": "session 8 Operasi Aritmatika.session8",
+        "documentation": {}
+    },
+    {
+        "label": "celcius",
+        "kind": 5,
+        "importPath": "session 9 Latihan Perhitungan.session9",
+        "description": "session 9 Latihan Perhitungan.session9",
+        "peekOfCode": "celcius = float(input('Masukan suhu dalam celcius: '))\nprint(\"\\nsuhu dalam celcius adalah : \", celcius, \"celcius\")\n# reamur\nreamur = (4/5) * celcius\nprint(\"\\nsuhu dalam reamur adalah : \", reamur, \"reamur\")\n# fahrenheit\nfahrenheit = ((9/5) * 32) + celcius\nprint(\"\\nsuhu dalam fahrenheit adalah : \", fahrenheit, \"fahrenheit\")\n# kelvin\nkelvin = celcius + 273",
+        "detail": "session 9 Latihan Perhitungan.session9",
+        "documentation": {}
+    },
+    {
+        "label": "reamur",
+        "kind": 5,
+        "importPath": "session 9 Latihan Perhitungan.session9",
+        "description": "session 9 Latihan Perhitungan.session9",
+        "peekOfCode": "reamur = (4/5) * celcius\nprint(\"\\nsuhu dalam reamur adalah : \", reamur, \"reamur\")\n# fahrenheit\nfahrenheit = ((9/5) * 32) + celcius\nprint(\"\\nsuhu dalam fahrenheit adalah : \", fahrenheit, \"fahrenheit\")\n# kelvin\nkelvin = celcius + 273\nprint(\"\\nsuhu dalam kelvin adalah : \", kelvin, \"kelvin\")",
+        "detail": "session 9 Latihan Perhitungan.session9",
+        "documentation": {}
+    },
+    {
+        "label": "fahrenheit",
+        "kind": 5,
+        "importPath": "session 9 Latihan Perhitungan.session9",
+        "description": "session 9 Latihan Perhitungan.session9",
+        "peekOfCode": "fahrenheit = ((9/5) * 32) + celcius\nprint(\"\\nsuhu dalam fahrenheit adalah : \", fahrenheit, \"fahrenheit\")\n# kelvin\nkelvin = celcius + 273\nprint(\"\\nsuhu dalam kelvin adalah : \", kelvin, \"kelvin\")",
+        "detail": "session 9 Latihan Perhitungan.session9",
+        "documentation": {}
+    },
+    {
+        "label": "kelvin",
+        "kind": 5,
+        "importPath": "session 9 Latihan Perhitungan.session9",
+        "description": "session 9 Latihan Perhitungan.session9",
+        "peekOfCode": "kelvin = celcius + 273\nprint(\"\\nsuhu dalam kelvin adalah : \", kelvin, \"kelvin\")",
+        "detail": "session 9 Latihan Perhitungan.session9",
+        "documentation": {}
+    }
+]
