@@ -18,6 +18,71 @@
         "documentation": {}
     },
     {
+        "label": "example",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "example",
+        "description": "example",
+        "detail": "example",
+        "documentation": {}
+    },
+    {
+        "label": "tambah",
+        "importPath": "module",
+        "description": "module",
+        "isExtraImport": true,
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "kali",
+        "importPath": "module",
+        "description": "module",
+        "isExtraImport": true,
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "importPath": "module",
+        "description": "module",
+        "isExtraImport": true,
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "tambah",
+        "importPath": "module",
+        "description": "module",
+        "isExtraImport": true,
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "kali",
+        "importPath": "module",
+        "description": "module",
+        "isExtraImport": true,
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "importPath": "module",
+        "description": "module",
+        "isExtraImport": true,
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "importPath": "sains",
+        "description": "sains",
+        "isExtraImport": true,
+        "detail": "sains",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "session 10 Operasi Komparasi.session10",
@@ -1608,6 +1673,303 @@
         "description": "session 50 Args.session50",
         "peekOfCode": "def tambah(*data):\n    total = 0\n    for item in data:\n        total += item\n    return total\nprint(tambah(1, 2, 3, 4, 5)) # 15",
         "detail": "session 50 Args.session50",
+        "documentation": {}
+    },
+    {
+        "label": "fungs",
+        "kind": 2,
+        "importPath": "session 51 Kwargs.session 51",
+        "description": "session 51 Kwargs.session 51",
+        "peekOfCode": "def fungsi (nama,tinggi,berat):\n    print(f\"Nama : {nama}\")\n    print(f\"Tinggi : {tinggi}\")\n    print(f\"Berat : {berat}\")\nfungsi(\"ucup\", 170,45)\ndef fungsi(**kwargs):\n    nama = kwargs[\"nama\"]\n    tinggi = kwargs[\"tinggi\"]\n    berat = kwargs[\"berat\"]\n    print(f\"Nama : {nama}, Tinggi {tinggi}, Berat {berat}\")",
+        "detail": "session 51 Kwargs.session 51",
+        "documentation": {}
+    },
+    {
+        "label": "fungsi",
+        "kind": 2,
+        "importPath": "session 51 Kwargs.session 51",
+        "description": "session 51 Kwargs.session 51",
+        "peekOfCode": "def fungsi(**kwargs):\n    nama = kwargs[\"nama\"]\n    tinggi = kwargs[\"tinggi\"]\n    berat = kwargs[\"berat\"]\n    print(f\"Nama : {nama}, Tinggi {tinggi}, Berat {berat}\")\nfungsi(nama=\"ucup\", tinggi=170, berat=45)\n# studi kasus\ndef math (*args, **kwargs):\n    total = 0\n    if kwargs[\"option\"] == \"tambah\":",
+        "detail": "session 51 Kwargs.session 51",
+        "documentation": {}
+    },
+    {
+        "label": "mat",
+        "kind": 2,
+        "importPath": "session 51 Kwargs.session 51",
+        "description": "session 51 Kwargs.session 51",
+        "peekOfCode": "def math (*args, **kwargs):\n    total = 0\n    if kwargs[\"option\"] == \"tambah\":\n        for angka in args:\n            total += angka\n        print(f\"Total : {total}\")\n    elif kwargs[\"option\"] == \"kali\":\n        hasil = 1\n        for angka in args:\n            hasil *= angka",
+        "detail": "session 51 Kwargs.session 51",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 51 Kwargs.session 51",
+        "description": "session 51 Kwargs.session 51",
+        "peekOfCode": "hasil = math(1,2,3,4, option=\"tambah\")\nhasil = math(1,2,3,4, option=\"kali\")",
+        "detail": "session 51 Kwargs.session 51",
+        "documentation": {}
+    },
+    {
+        "label": "hasil",
+        "kind": 5,
+        "importPath": "session 51 Kwargs.session 51",
+        "description": "session 51 Kwargs.session 51",
+        "peekOfCode": "hasil = math(1,2,3,4, option=\"kali\")",
+        "detail": "session 51 Kwargs.session 51",
+        "documentation": {}
+    },
+    {
+        "label": "kuadra",
+        "kind": 2,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "def kuadrat (angka):\n    return angka ** 2\nprint(kuadrat(3))\n# lambda\nkuadrat_lambda = lambda angka: angka ** 2\nprint(kuadrat_lambda(3))\n# custom\nkuadrat = lambda num, pow : num ** pow\nprint(kuadrat(4, 2))\n# sorting data dengan lambda",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 2,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "def pangkat(angka, n):\n    hasil = angka ** n\n    print(hasil)\npangkat(2,3)\n# currying\ndef pangkat(n):\n    return lambda angka: angka ** n\npangkat_dua = pangkat(2)\nprint(pangkat_dua(10))",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 2,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "def pangkat(n):\n    return lambda angka: angka ** n\npangkat_dua = pangkat(2)\nprint(pangkat_dua(10))",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "kuadrat_lambda",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "kuadrat_lambda = lambda angka: angka ** 2\nprint(kuadrat_lambda(3))\n# custom\nkuadrat = lambda num, pow : num ** pow\nprint(kuadrat(4, 2))\n# sorting data dengan lambda\ndata = [(\"Andi\", 25), (\"Budi\", 30), (\"Caca\", 28)]\ndata.sort(key=lambda x: x[1])\nprint(data)\n# filter data dengan lambda",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "kuadrat",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "kuadrat = lambda num, pow : num ** pow\nprint(kuadrat(4, 2))\n# sorting data dengan lambda\ndata = [(\"Andi\", 25), (\"Budi\", 30), (\"Caca\", 28)]\ndata.sort(key=lambda x: x[1])\nprint(data)\n# filter data dengan lambda\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfiltered_data = list(filter(lambda x: x % 2 == 0, data))\nprint(filtered_data)",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "data = [(\"Andi\", 25), (\"Budi\", 30), (\"Caca\", 28)]\ndata.sort(key=lambda x: x[1])\nprint(data)\n# filter data dengan lambda\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfiltered_data = list(filter(lambda x: x % 2 == 0, data))\nprint(filtered_data)\n# map data dengan lambda\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nmapped_data = list(map(lambda x: x ** 2, data))",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfiltered_data = list(filter(lambda x: x % 2 == 0, data))\nprint(filtered_data)\n# map data dengan lambda\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nmapped_data = list(map(lambda x: x ** 2, data))\nprint(mapped_data)\n# Anonymous Function\n# currying <- haskell curry\ndef pangkat(angka, n):",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_data",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "filtered_data = list(filter(lambda x: x % 2 == 0, data))\nprint(filtered_data)\n# map data dengan lambda\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nmapped_data = list(map(lambda x: x ** 2, data))\nprint(mapped_data)\n# Anonymous Function\n# currying <- haskell curry\ndef pangkat(angka, n):\n    hasil = angka ** n",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nmapped_data = list(map(lambda x: x ** 2, data))\nprint(mapped_data)\n# Anonymous Function\n# currying <- haskell curry\ndef pangkat(angka, n):\n    hasil = angka ** n\n    print(hasil)\npangkat(2,3)\n# currying",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_data",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "mapped_data = list(map(lambda x: x ** 2, data))\nprint(mapped_data)\n# Anonymous Function\n# currying <- haskell curry\ndef pangkat(angka, n):\n    hasil = angka ** n\n    print(hasil)\npangkat(2,3)\n# currying\ndef pangkat(n):",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat_dua",
+        "kind": 5,
+        "importPath": "session 52 Anonymous and Lambda Function.session52",
+        "description": "session 52 Anonymous and Lambda Function.session52",
+        "peekOfCode": "pangkat_dua = pangkat(2)\nprint(pangkat_dua(10))",
+        "detail": "session 52 Anonymous and Lambda Function.session52",
+        "documentation": {}
+    },
+    {
+        "label": "tampilkan_nama",
+        "kind": 2,
+        "importPath": "session 53 Global and Local Scope.session53",
+        "description": "session 53 Global and Local Scope.session53",
+        "peekOfCode": "def tampilkan_nama():\n    nama = \"Raffly\" # local variable\n    print(f\"Nama saya adalah {nama}\")\n    print(f\"Nama global: {global_nama}\")\ntampilkan_nama()\nprint(nama) # cannot acces cause variable name is local scope",
+        "detail": "session 53 Global and Local Scope.session53",
+        "documentation": {}
+    },
+    {
+        "label": "global_nama",
+        "kind": 5,
+        "importPath": "session 53 Global and Local Scope.session53",
+        "description": "session 53 Global and Local Scope.session53",
+        "peekOfCode": "global_nama = \"Zidhan\" # global variable\ndef tampilkan_nama():\n    nama = \"Raffly\" # local variable\n    print(f\"Nama saya adalah {nama}\")\n    print(f\"Nama global: {global_nama}\")\ntampilkan_nama()\nprint(nama) # cannot acces cause variable name is local scope",
+        "detail": "session 53 Global and Local Scope.session53",
+        "documentation": {}
+    },
+    {
+        "label": "tambah",
+        "kind": 2,
+        "importPath": "session 54 Import Statement.example",
+        "description": "session 54 Import Statement.example",
+        "peekOfCode": "def tambah(a, n):\n    return a + n",
+        "detail": "session 54 Import Statement.example",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 54 Import Statement.example",
+        "description": "session 54 Import Statement.example",
+        "peekOfCode": "data = [\"zidhan\", \"dudung\", \"ucup\"]\ndef tambah(a, n):\n    return a + n",
+        "detail": "session 54 Import Statement.example",
+        "documentation": {}
+    },
+    {
+        "label": "hasilTambah",
+        "kind": 5,
+        "importPath": "session 55 Module.alias",
+        "description": "session 55 Module.alias",
+        "peekOfCode": "hasilTambah = add(1,2,3,4,5)\nprint(f\"Hasil penjumlahan: {hasilTambah}\")\nhasilKali = k(10,5)\nprint(f\"Hasil perkalian: {hasilKali}\")\nhasilPangkat = p(3)\nprint(f\"Hasil pangkat 3: {hasilPangkat(2)}\")",
+        "detail": "session 55 Module.alias",
+        "documentation": {}
+    },
+    {
+        "label": "hasilKali",
+        "kind": 5,
+        "importPath": "session 55 Module.alias",
+        "description": "session 55 Module.alias",
+        "peekOfCode": "hasilKali = k(10,5)\nprint(f\"Hasil perkalian: {hasilKali}\")\nhasilPangkat = p(3)\nprint(f\"Hasil pangkat 3: {hasilPangkat(2)}\")",
+        "detail": "session 55 Module.alias",
+        "documentation": {}
+    },
+    {
+        "label": "hasilPangkat",
+        "kind": 5,
+        "importPath": "session 55 Module.alias",
+        "description": "session 55 Module.alias",
+        "peekOfCode": "hasilPangkat = p(3)\nprint(f\"Hasil pangkat 3: {hasilPangkat(2)}\")",
+        "detail": "session 55 Module.alias",
+        "documentation": {}
+    },
+    {
+        "label": "tambah",
+        "kind": 2,
+        "importPath": "session 55 Module.module",
+        "description": "session 55 Module.module",
+        "peekOfCode": "def tambah(*args):\n    total = 0\n    for arg in args:\n        total += arg\n    return total\ndef kali(*args):\n    total = 1\n    for arg in args:\n        total *= arg\n    return total",
+        "detail": "session 55 Module.module",
+        "documentation": {}
+    },
+    {
+        "label": "kali",
+        "kind": 2,
+        "importPath": "session 55 Module.module",
+        "description": "session 55 Module.module",
+        "peekOfCode": "def kali(*args):\n    total = 1\n    for arg in args:\n        total *= arg\n    return total\ndef pangkat(n: int):\n    return lambda x: x ** n",
+        "detail": "session 55 Module.module",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 2,
+        "importPath": "session 55 Module.module",
+        "description": "session 55 Module.module",
+        "peekOfCode": "def pangkat(n: int):\n    return lambda x: x ** n",
+        "detail": "session 55 Module.module",
+        "documentation": {}
+    },
+    {
+        "label": "hasilTambah",
+        "kind": 5,
+        "importPath": "session 55 Module.session55",
+        "description": "session 55 Module.session55",
+        "peekOfCode": "hasilTambah = tambah(1,2,3,4,5)\nprint(f\"Hasil penjumlahan: {hasilTambah}\")\nhasilKali = kali(10,5)\nprint(f\"Hasil perkalian: {hasilKali}\")\nhasilPangkat = pangkat(3)\nprint(f\"Hasil pangkat 3: {hasilPangkat(2)}\")",
+        "detail": "session 55 Module.session55",
+        "documentation": {}
+    },
+    {
+        "label": "hasilKali",
+        "kind": 5,
+        "importPath": "session 55 Module.session55",
+        "description": "session 55 Module.session55",
+        "peekOfCode": "hasilKali = kali(10,5)\nprint(f\"Hasil perkalian: {hasilKali}\")\nhasilPangkat = pangkat(3)\nprint(f\"Hasil pangkat 3: {hasilPangkat(2)}\")",
+        "detail": "session 55 Module.session55",
+        "documentation": {}
+    },
+    {
+        "label": "hasilPangkat",
+        "kind": 5,
+        "importPath": "session 55 Module.session55",
+        "description": "session 55 Module.session55",
+        "peekOfCode": "hasilPangkat = pangkat(3)\nprint(f\"Hasil pangkat 3: {hasilPangkat(2)}\")",
+        "detail": "session 55 Module.session55",
+        "documentation": {}
+    },
+    {
+        "label": "tamba",
+        "kind": 2,
+        "importPath": "session 56 Package.sains.math",
+        "description": "session 56 Package.sains.math",
+        "peekOfCode": "def tambah (*args):\n    total = 0\n    for item in args:\n        total += item\n    return total\ndef kali (*args):\n    total = 1\n    for item in args:\n        total *= item\n    return total",
+        "detail": "session 56 Package.sains.math",
+        "documentation": {}
+    },
+    {
+        "label": "kal",
+        "kind": 2,
+        "importPath": "session 56 Package.sains.math",
+        "description": "session 56 Package.sains.math",
+        "peekOfCode": "def kali (*args):\n    total = 1\n    for item in args:\n        total *= item\n    return total\ndef pangkat(n):\n    return lambda x: x ** n",
+        "detail": "session 56 Package.sains.math",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 2,
+        "importPath": "session 56 Package.sains.math",
+        "description": "session 56 Package.sains.math",
+        "peekOfCode": "def pangkat(n):\n    return lambda x: x ** n",
+        "detail": "session 56 Package.sains.math",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 5,
+        "importPath": "session 56 Package.session56",
+        "description": "session 56 Package.session56",
+        "peekOfCode": "pangkat = math.pangkat(3)\nprint(f\"Ini adalah hasil pangkat: {pangkat(4)}\")",
+        "detail": "session 56 Package.session56",
         "documentation": {}
     },
     {

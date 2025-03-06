@@ -19,7 +19,7 @@ print(f"Key 'nama' ada di dictionary: {keyExist}")
 value = dataDict.get("nama")
 print(f"Value 'nama': {value}")
 value = dataDict.get("lahir")
-print(f"Value 'lahir': {value}", "key tidak ditemukan") #Mengecek key dan memberi komentar
+print(f"Value 'lahir': {value}", "key tidak ditemukan") # Mengecek key dan memberi komentar
 
 
 # Mengupdate data
