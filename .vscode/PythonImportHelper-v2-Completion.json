@@ -75,11 +75,98 @@
         "documentation": {}
     },
     {
+        "label": "sains",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sains",
+        "description": "sains",
+        "detail": "sains",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "importPath": "sains",
         "description": "sains",
         "isExtraImport": true,
         "detail": "sains",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "showinfo",
+        "importPath": "tkinter.messagebox",
+        "description": "tkinter.messagebox",
+        "isExtraImport": true,
+        "detail": "tkinter.messagebox",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "fungsi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fungsi",
+        "description": "fungsi",
+        "detail": "fungsi",
+        "documentation": {}
+    },
+    {
+        "label": "package",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "package",
+        "description": "package",
+        "detail": "package",
         "documentation": {}
     },
     {
@@ -1973,6 +2060,186 @@
         "documentation": {}
     },
     {
+        "label": "tamba",
+        "kind": 2,
+        "importPath": "session 57 Init Py Package.sains.math",
+        "description": "session 57 Init Py Package.sains.math",
+        "peekOfCode": "def tambah (*args):\n    total = 0\n    for item in args:\n        total += item\n    return total\ndef kali (*args):\n    total = 1\n    for item in args:\n        total *= item\n    return total",
+        "detail": "session 57 Init Py Package.sains.math",
+        "documentation": {}
+    },
+    {
+        "label": "kal",
+        "kind": 2,
+        "importPath": "session 57 Init Py Package.sains.math",
+        "description": "session 57 Init Py Package.sains.math",
+        "peekOfCode": "def kali (*args):\n    total = 1\n    for item in args:\n        total *= item\n    return total\ndef pangkat(n):\n    return lambda x: x ** n",
+        "detail": "session 57 Init Py Package.sains.math",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 2,
+        "importPath": "session 57 Init Py Package.sains.math",
+        "description": "session 57 Init Py Package.sains.math",
+        "peekOfCode": "def pangkat(n):\n    return lambda x: x ** n",
+        "detail": "session 57 Init Py Package.sains.math",
+        "documentation": {}
+    },
+    {
+        "label": "tambah",
+        "kind": 5,
+        "importPath": "session 57 Init Py Package.session57",
+        "description": "session 57 Init Py Package.session57",
+        "peekOfCode": "tambah = sains.math.tambah(1,2,3,4,5,6)\nprint(f\"hasil penambahan : {tambah}\")\nkali = sains.math.kali(1,2,3,4,5,6)\nprint(f\"hasil perkalian : {kali}\")\npangkat = sains.math.pangkat(2)\nprint(f\"hasil penambahan : {pangkat(3)}\")",
+        "detail": "session 57 Init Py Package.session57",
+        "documentation": {}
+    },
+    {
+        "label": "kali",
+        "kind": 5,
+        "importPath": "session 57 Init Py Package.session57",
+        "description": "session 57 Init Py Package.session57",
+        "peekOfCode": "kali = sains.math.kali(1,2,3,4,5,6)\nprint(f\"hasil perkalian : {kali}\")\npangkat = sains.math.pangkat(2)\nprint(f\"hasil penambahan : {pangkat(3)}\")",
+        "detail": "session 57 Init Py Package.session57",
+        "documentation": {}
+    },
+    {
+        "label": "pangkat",
+        "kind": 5,
+        "importPath": "session 57 Init Py Package.session57",
+        "description": "session 57 Init Py Package.session57",
+        "peekOfCode": "pangkat = sains.math.pangkat(2)\nprint(f\"hasil penambahan : {pangkat(3)}\")",
+        "detail": "session 57 Init Py Package.session57",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "kind": 5,
+        "importPath": "session 58 Standard Library.session58",
+        "description": "session 58 Standard Library.session58",
+        "peekOfCode": "date = datetime.datetime.now()\nprint(\"Tanggal:\", date.day)\nprint(\"Bulan:\", date.month)\nprint(\"Tahun:\", date.year)\nprint(\"Jam:\", date.hour)\nprint(\"Menit:\", date.minute)\nprint(\"Detik:\", date.second)\nprint(\"Hari dalam minggu:\", date.weekday())\nprint(\"Tanggal dalam bulan:\", date.strftime(\"%d %B %Y\"))\nprint(f\"Hari: {date.strftime('%A')}\")",
+        "detail": "session 58 Standard Library.session58",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "session 58 Standard Library.session58",
+        "description": "session 58 Standard Library.session58",
+        "peekOfCode": "data = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]\ncounter = Counter(data)\nprint(counter)\nprint(f\"data huruf a: {counter['a']}\")\nimport io\nimport os\n# print(os.listdir())  # Melihat daftar file di direktori\nos.chdir(\"session 58 Standard Library\")\nprint(\"Sekarang berada di:\", os.getcwd())\nfile = io.open(\"file_text.txt\", \"r\")",
+        "detail": "session 58 Standard Library.session58",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "session 58 Standard Library.session58",
+        "description": "session 58 Standard Library.session58",
+        "peekOfCode": "counter = Counter(data)\nprint(counter)\nprint(f\"data huruf a: {counter['a']}\")\nimport io\nimport os\n# print(os.listdir())  # Melihat daftar file di direktori\nos.chdir(\"session 58 Standard Library\")\nprint(\"Sekarang berada di:\", os.getcwd())\nfile = io.open(\"file_text.txt\", \"r\")\nprint(file.read())",
+        "detail": "session 58 Standard Library.session58",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "session 58 Standard Library.session58",
+        "description": "session 58 Standard Library.session58",
+        "peekOfCode": "file = io.open(\"file_text.txt\", \"r\")\nprint(file.read())",
+        "detail": "session 58 Standard Library.session58",
+        "documentation": {}
+    },
+    {
+        "label": "onClick",
+        "kind": 2,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "def onClick():\n    # print(f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\n    showinfo(title=\"Notifications\", message=f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\nbutton = ttk.Button(inputFrame, text=\"Submit\", command=onClick)\nbutton.pack(fill=\"x\", expand=True, padx=10, pady=10)    \nwindow.mainloop()",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "window",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "window = tk.Tk()\nwindow.configure(bg=\"white\")\nwindow.geometry(\"300x200\")\n# window.resizable(False, False)\nwindow.title(\"Graphical\")\n# frame input\ninputFrame = ttk.Frame(window)\n# penempatan Grid, Pack, Place\ninputFrame.pack(padx=10, fill=\"x\", expand=True)\nNAMADEPAN = tk.StringVar()",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "inputFrame",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "inputFrame = ttk.Frame(window)\n# penempatan Grid, Pack, Place\ninputFrame.pack(padx=10, fill=\"x\", expand=True)\nNAMADEPAN = tk.StringVar()\nNAMABELAKANG = tk.StringVar()\n# component\n# 1. Label\nnamaDepan = ttk.Label(inputFrame, text=\"Nama Depan\")\nnamaDepan.pack(padx=10, fill=\"x\", expand=True)\n# 2. Entry",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "NAMADEPAN",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "NAMADEPAN = tk.StringVar()\nNAMABELAKANG = tk.StringVar()\n# component\n# 1. Label\nnamaDepan = ttk.Label(inputFrame, text=\"Nama Depan\")\nnamaDepan.pack(padx=10, fill=\"x\", expand=True)\n# 2. Entry\nnamaDepanEntry = ttk.Entry(inputFrame, textvariable=NAMADEPAN)\nnamaDepanEntry.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakang = ttk.Label(inputFrame, text=\"Nama Belakang\")",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "NAMABELAKANG",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "NAMABELAKANG = tk.StringVar()\n# component\n# 1. Label\nnamaDepan = ttk.Label(inputFrame, text=\"Nama Depan\")\nnamaDepan.pack(padx=10, fill=\"x\", expand=True)\n# 2. Entry\nnamaDepanEntry = ttk.Entry(inputFrame, textvariable=NAMADEPAN)\nnamaDepanEntry.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakang = ttk.Label(inputFrame, text=\"Nama Belakang\")\nnamaBelakang.pack(padx=10, fill=\"x\", expand=True)",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "namaDepan",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "namaDepan = ttk.Label(inputFrame, text=\"Nama Depan\")\nnamaDepan.pack(padx=10, fill=\"x\", expand=True)\n# 2. Entry\nnamaDepanEntry = ttk.Entry(inputFrame, textvariable=NAMADEPAN)\nnamaDepanEntry.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakang = ttk.Label(inputFrame, text=\"Nama Belakang\")\nnamaBelakang.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakangEntry = ttk.Entry(inputFrame, textvariable=NAMABELAKANG)\nnamaBelakangEntry.pack(padx=10, fill=\"x\", expand=True)\n# Button",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "namaDepanEntry",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "namaDepanEntry = ttk.Entry(inputFrame, textvariable=NAMADEPAN)\nnamaDepanEntry.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakang = ttk.Label(inputFrame, text=\"Nama Belakang\")\nnamaBelakang.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakangEntry = ttk.Entry(inputFrame, textvariable=NAMABELAKANG)\nnamaBelakangEntry.pack(padx=10, fill=\"x\", expand=True)\n# Button\ndef onClick():\n    # print(f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\n    showinfo(title=\"Notifications\", message=f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "namaBelakang",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "namaBelakang = ttk.Label(inputFrame, text=\"Nama Belakang\")\nnamaBelakang.pack(padx=10, fill=\"x\", expand=True)\nnamaBelakangEntry = ttk.Entry(inputFrame, textvariable=NAMABELAKANG)\nnamaBelakangEntry.pack(padx=10, fill=\"x\", expand=True)\n# Button\ndef onClick():\n    # print(f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\n    showinfo(title=\"Notifications\", message=f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\nbutton = ttk.Button(inputFrame, text=\"Submit\", command=onClick)\nbutton.pack(fill=\"x\", expand=True, padx=10, pady=10)    ",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "namaBelakangEntry",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "namaBelakangEntry = ttk.Entry(inputFrame, textvariable=NAMABELAKANG)\nnamaBelakangEntry.pack(padx=10, fill=\"x\", expand=True)\n# Button\ndef onClick():\n    # print(f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\n    showinfo(title=\"Notifications\", message=f\"Halo, {NAMADEPAN.get()} {NAMABELAKANG.get()}\")\nbutton = ttk.Button(inputFrame, text=\"Submit\", command=onClick)\nbutton.pack(fill=\"x\", expand=True, padx=10, pady=10)    \nwindow.mainloop()",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
+        "label": "button",
+        "kind": 5,
+        "importPath": "session 59 Tkinter GUI.session59",
+        "description": "session 59 Tkinter GUI.session59",
+        "peekOfCode": "button = ttk.Button(inputFrame, text=\"Submit\", command=onClick)\nbutton.pack(fill=\"x\", expand=True, padx=10, pady=10)    \nwindow.mainloop()",
+        "detail": "session 59 Tkinter GUI.session59",
+        "documentation": {}
+    },
+    {
         "label": "data_int",
         "kind": 5,
         "importPath": "session 6 Casting Tipe Data.session6",
@@ -2114,6 +2381,123 @@
         "description": "session 6 Casting Tipe Data.session6",
         "peekOfCode": "data_float = float(data_string) #string harus angka\nprint(\"data int :\", data_int) \nprint(\"data boolean :\", data_boolean)\nprint(\"data float :\", data_float)",
         "detail": "session 6 Casting Tipe Data.session6",
+        "documentation": {}
+    },
+    {
+        "label": "vectorA",
+        "kind": 5,
+        "importPath": "session 61 Package Numpy.session61",
+        "description": "session 61 Package Numpy.session61",
+        "peekOfCode": "vectorA = np.array([1, 2, 3, 4]) # -> [1 2 3 4] juga bisa di kuadratkan\nmatriksA = np.array([(1, 2), (3,4)])\nzeros = np.zeros((2,2))\nprint(f\"zeros bernilai : {zeros}\")\nones = np.ones((2,2))\nprint(f\"ones bernilai : {ones}\")",
+        "detail": "session 61 Package Numpy.session61",
+        "documentation": {}
+    },
+    {
+        "label": "matriksA",
+        "kind": 5,
+        "importPath": "session 61 Package Numpy.session61",
+        "description": "session 61 Package Numpy.session61",
+        "peekOfCode": "matriksA = np.array([(1, 2), (3,4)])\nzeros = np.zeros((2,2))\nprint(f\"zeros bernilai : {zeros}\")\nones = np.ones((2,2))\nprint(f\"ones bernilai : {ones}\")",
+        "detail": "session 61 Package Numpy.session61",
+        "documentation": {}
+    },
+    {
+        "label": "zeros",
+        "kind": 5,
+        "importPath": "session 61 Package Numpy.session61",
+        "description": "session 61 Package Numpy.session61",
+        "peekOfCode": "zeros = np.zeros((2,2))\nprint(f\"zeros bernilai : {zeros}\")\nones = np.ones((2,2))\nprint(f\"ones bernilai : {ones}\")",
+        "detail": "session 61 Package Numpy.session61",
+        "documentation": {}
+    },
+    {
+        "label": "ones",
+        "kind": 5,
+        "importPath": "session 61 Package Numpy.session61",
+        "description": "session 61 Package Numpy.session61",
+        "peekOfCode": "ones = np.ones((2,2))\nprint(f\"ones bernilai : {ones}\")",
+        "detail": "session 61 Package Numpy.session61",
+        "documentation": {}
+    },
+    {
+        "label": "windowX",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "windowX = 500\nwindowY = 500\nwindow = pygame.display.set_mode((windowX, windowY))\n# object game\n# posisi\nx = 250\ny = 250\n# ukuran\np = 20\nl = 20",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "windowY",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "windowY = 500\nwindow = pygame.display.set_mode((windowX, windowY))\n# object game\n# posisi\nx = 250\ny = 250\n# ukuran\np = 20\nl = 20\n# kecepatan",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "window",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "window = pygame.display.set_mode((windowX, windowY))\n# object game\n# posisi\nx = 250\ny = 250\n# ukuran\np = 20\nl = 20\n# kecepatan\ns = 10",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "x = 250\ny = 250\n# ukuran\np = 20\nl = 20\n# kecepatan\ns = 10\nwhile True:\n    pygame.time.delay(10)\n    # user input, database input",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "y = 250\n# ukuran\np = 20\nl = 20\n# kecepatan\ns = 10\nwhile True:\n    pygame.time.delay(10)\n    # user input, database input\n    for event in pygame.event.get():",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "p = 20\nl = 20\n# kecepatan\ns = 10\nwhile True:\n    pygame.time.delay(10)\n    # user input, database input\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            pygame.quit()",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "l = 20\n# kecepatan\ns = 10\nwhile True:\n    pygame.time.delay(10)\n    # user input, database input\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            pygame.quit()\n            exit()",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "session 62 Pygame.session62",
+        "description": "session 62 Pygame.session62",
+        "peekOfCode": "s = 10\nwhile True:\n    pygame.time.delay(10)\n    # user input, database input\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            pygame.quit()\n            exit()\n    # movement\n    keys = pygame.key.get_pressed()",
+        "detail": "session 62 Pygame.session62",
+        "documentation": {}
+    },
+    {
+        "label": "fungsiTambah",
+        "kind": 2,
+        "importPath": "session 63 __main__.session63",
+        "description": "session 63 __main__.session63",
+        "peekOfCode": "def fungsiTambah(a: int, b: int)->int:\n    return a + b\n# fungsi utama\nif __name__ == '__main__':\n    print(fungsiTambah(10, 5))\n# import package\nimport package",
+        "detail": "session 63 __main__.session63",
         "documentation": {}
     },
     {
