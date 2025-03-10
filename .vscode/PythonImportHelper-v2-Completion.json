@@ -170,6 +170,33 @@
         "documentation": {}
     },
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "CRUD",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "CRUD",
+        "description": "CRUD",
+        "detail": "CRUD",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "session 10 Operasi Komparasi.session10",
@@ -2498,6 +2525,51 @@
         "description": "session 63 __main__.session63",
         "peekOfCode": "def fungsiTambah(a: int, b: int)->int:\n    return a + b\n# fungsi utama\nif __name__ == '__main__':\n    print(fungsiTambah(10, 5))\n# import package\nimport package",
         "detail": "session 63 __main__.session63",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "session 64 Read External.session64",
+        "description": "session 64 Read External.session64",
+        "peekOfCode": "file = open(\"data.txt\", mode=\"r\")\nprint(f\"Status read: {file.readable()}\")\nprint(f\"Status write: {file.writable()}\")\n# 2. Membaca isi file\nprint(file.read())\n# 3. Membaca per baris\n# print(file.readlines()) -> baris pertama \n# print(file.readlines()) -> baris selanjutnya\n# 4. Membaca semua sebagai list\n# print(file.readlines())",
+        "detail": "session 64 Read External.session64",
+        "documentation": {}
+    },
+    {
+        "label": "init_console",
+        "kind": 2,
+        "importPath": "session 67 Persiapan Project.CRUD.Database",
+        "description": "session 67 Persiapan Project.CRUD.Database",
+        "peekOfCode": "def init_console():\n    try:\n        with open (\"data.txt\", \"r\") as file:\n            print(\"Database tersedia, init done!\")\n    except FileNotFoundError:\n        print(\"Database baru dibuat, init done!\")\n        Operasi.create_first_data()",
+        "detail": "session 67 Persiapan Project.CRUD.Database",
+        "documentation": {}
+    },
+    {
+        "label": "DB_NAME",
+        "kind": 5,
+        "importPath": "session 67 Persiapan Project.CRUD.Database",
+        "description": "session 67 Persiapan Project.CRUD.Database",
+        "peekOfCode": "DB_NAME = \"data.txt\"\nTEMPLATE = {\n    \"pk\": \"xxxxxx\",\n    \"date_add\": \"yyyy-mm-dd\",\n    \"judul\": 255 * \" \",\n    \"penulis\": 255 * \" \",\n    \"tahun\": \"yyyy\",\n}\ndef init_console():\n    try:",
+        "detail": "session 67 Persiapan Project.CRUD.Database",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATE",
+        "kind": 5,
+        "importPath": "session 67 Persiapan Project.CRUD.Database",
+        "description": "session 67 Persiapan Project.CRUD.Database",
+        "peekOfCode": "TEMPLATE = {\n    \"pk\": \"xxxxxx\",\n    \"date_add\": \"yyyy-mm-dd\",\n    \"judul\": 255 * \" \",\n    \"penulis\": 255 * \" \",\n    \"tahun\": \"yyyy\",\n}\ndef init_console():\n    try:\n        with open (\"data.txt\", \"r\") as file:",
+        "detail": "session 67 Persiapan Project.CRUD.Database",
+        "documentation": {}
+    },
+    {
+        "label": "create_first_data",
+        "kind": 2,
+        "importPath": "session 67 Persiapan Project.CRUD.Operasi",
+        "description": "session 67 Persiapan Project.CRUD.Operasi",
+        "peekOfCode": "def create_first_data():\n    penulis = input(\"Masukan Nama Penulis: \")\n    judul = input(\"Masukan Judul: \")\n    tahun = input(\"Masukan Tahun Publikasi: \")\n    data = Database.TEMPLATE.copy()\n    data[\"pk\"] = ''.join(random.choice(string.ascii_letters) for i in range(6))\n    print(data[\"pk\"])",
+        "detail": "session 67 Persiapan Project.CRUD.Operasi",
         "documentation": {}
     },
     {
